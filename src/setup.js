@@ -3,7 +3,7 @@ const path = require('path');
 const DatabaseConfig = require('./config/database');
 
 async function setup() {
-    console.log('?? Configurando ambiente...');
+    console.log(' Configurando ambiente...');
 
     try {
         // 1. Criar diretorios necessarios
@@ -14,12 +14,12 @@ async function setup() {
         }
 
         // 2. Configurar banco de dados
-        console.log('?? Configurando banco de dados...');
+        console.log(' Configurando banco de dados...');
         const db = new DatabaseConfig();
         await db.connect();
         await db.createTables();
         db.close();
-        console.log('? Banco de dados configurado');
+        console.log(' Banco de dados configurado');
 
         // 3. Criar arquivos de exemplo
         const configExample = {
@@ -40,8 +40,8 @@ async function setup() {
         await fs.writeFile('config.example.json', JSON.stringify(configExample, null, 2));
         console.log('? Arquivo de configuração de exemplo criado');
 
-        console.log('\n?? Setup concluído com sucesso!');
-        console.log('\n?? Próximos passos:');
+        console.log('\n Setup concluído com sucesso!');
+        console.log('\n Próximos passos:');
         console.log('1. npm install');
         console.log('2. npm run start');
 

@@ -1,0 +1,5091 @@
+{
+  "id": "integration-2025-05-29T15-05-00-510Z",
+  "timestamp": "2025-05-29T15:05:00.511Z",
+  "execution": {
+    "startTime": "2025-05-29T15:04:58.027Z",
+    "endTime": "2025-05-29T15:05:00.509Z",
+    "duration": "2.48s"
+  },
+  "summary": {
+    "processed": 362,
+    "inserted": 24,
+    "updated": 0,
+    "skipped": 338,
+    "errors": 338
+  },
+  "details": {
+    "successRate": "6.63%",
+    "errors": [
+      {
+        "colaborador": {
+          "usuario": "daniele@beta.com.br",
+          "nome": "Daniele",
+          "sobrenome": "Oliveira",
+          "cargo": "Analista Administrativo Junior                                                                                                                                                                          ",
+          "matricula": "5050",
+          "cpf": "64794300000",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "ramon@beta.com.br",
+          "nome": "Ramon",
+          "sobrenome": "Weiss",
+          "cargo": "dev",
+          "matricula": "240120",
+          "cpf": "07406693974",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rodrigo@beta.com.br",
+          "nome": "Rodrigo",
+          "sobrenome": "Formento",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "49976080093",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "julia@beta.com.br",
+          "nome": "Julia",
+          "sobrenome": "Lana",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "98744142005",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "agencia1@beta.com.br",
+          "nome": "Agência",
+          "sobrenome": "1",
+          "cargo": "",
+          "matricula": "1891981891",
+          "cpf": "36111295004",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "agencia2@beta.com.br",
+          "nome": "Nova",
+          "sobrenome": "Esperança",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "41946459011",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "agenciainterna@beta.com.br",
+          "nome": "Agência",
+          "sobrenome": "Interna",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "73915099066",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luciane@beta.com.br",
+          "nome": "Luciane",
+          "sobrenome": "Posanske",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "89140072002",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "claudio.dev@beta.com.br",
+          "nome": "Claudio",
+          "sobrenome": "Wagner",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "59132838050",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "dayane@beta.com.br",
+          "nome": "Dayane",
+          "sobrenome": "Prim",
+          "cargo": "Marke",
+          "matricula": "",
+          "cpf": "63873843030",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jasmine@beta.com.br",
+          "nome": "Jasmine",
+          "sobrenome": "Cardoso",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "84698978025",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "edson@beta.com.br",
+          "nome": "Edson",
+          "sobrenome": "Gonçalves",
+          "cargo": "",
+          "matricula": "3773",
+          "cpf": "45126776070",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "matéus@beta.com.br",
+          "nome": "Mateus",
+          "sobrenome": "Ferrando",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "08022802000",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "agencia3@beta.com.br",
+          "nome": "Agência",
+          "sobrenome": "3",
+          "cargo": "",
+          "matricula": "2609",
+          "cpf": "26751551010",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gui@beta.com.br",
+          "nome": "Guilherme",
+          "sobrenome": "Lana",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "41439992851",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "geovani@beta.com.br",
+          "nome": "Geovani",
+          "sobrenome": "Siqueira",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "95715311039",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "pedro@beta.com.br",
+          "nome": "Pedro",
+          "sobrenome": "Henrique",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "71115638084",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "anderson@beta.com.br",
+          "nome": "Andersonn",
+          "sobrenome": "Buzzii",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "92677571056",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "app@paytrack.com.br",
+          "nome": "Usuário da Apple",
+          "sobrenome": "Não alterar",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "77889773064",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jessica@beta.com.br",
+          "nome": "Jessica",
+          "sobrenome": "Brugognolle",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "33333333333",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 33333333333"
+      },
+      {
+        "colaborador": {
+          "usuario": "aanderson.buzzi1@beta.com.br",
+          "nome": "Anderson",
+          "sobrenome": "Buzzii",
+          "cargo": "Desenvolvedor",
+          "matricula": "89466",
+          "cpf": "05590606969",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gustavo@beta.com.br",
+          "nome": "Gustavo",
+          "sobrenome": "Case",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "33736218605",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "lucas@beta.com.br",
+          "nome": "Lucas",
+          "sobrenome": "..",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "61788434536",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fernanda@beta.com.br",
+          "nome": "Fernanda",
+          "sobrenome": "Case",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "78738710374",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "cristine@beta.com.br",
+          "nome": "Cristine",
+          "sobrenome": "Case",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "49186781146",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "roseli@beta.com.br",
+          "nome": "Roseli",
+          "sobrenome": "Case",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "55649859744",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "mat@beta.com",
+          "nome": "Mateuse",
+          "sobrenome": "Ferrando",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "1",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 1"
+      },
+      {
+        "colaborador": {
+          "usuario": "colaborador@beta.com.br",
+          "nome": "Roberto",
+          "sobrenome": "Alcantara",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "64745359896",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "planilha.teste01211@gmail.com",
+          "nome": "Planilasdha",
+          "sobrenome": "Teste26101",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "55555555555",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 55555555555"
+      },
+      {
+        "colaborador": {
+          "usuario": "aline@beta.com.br",
+          "nome": "Aline NãoMudarASenha",
+          "sobrenome": "Pereira",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "58486170079",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "usuario@beta.com.br",
+          "nome": "usuario beta",
+          "sobrenome": "beta",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "48266109044",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "joaosilva@paytrack.com.br",
+          "nome": "João",
+          "sobrenome": "Silva",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "05590606967",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 05590606967"
+      },
+      {
+        "colaborador": {
+          "usuario": "solicitante@beta.com.br",
+          "nome": "Solicitante",
+          "sobrenome": "IMEX",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12558487963",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 12558487963"
+      },
+      {
+        "colaborador": {
+          "usuario": "orlando.krause@beta.com.br_anonimizado",
+          "nome": "Cassio",
+          "sobrenome": "Lindo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "00000000000",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": "Comercial",
+          "centro_custo_nome": "Comercial"
+        },
+        "error": "CPF invalido: 00000000000"
+      },
+      {
+        "colaborador": {
+          "usuario": "agencia1.1@beta.com.br",
+          "nome": "Agencia",
+          "sobrenome": "1.1",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "21212121212",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 21212121212"
+      },
+      {
+        "colaborador": {
+          "usuario": "colaborador2@beta",
+          "nome": "Jose",
+          "sobrenome": "Silva",
+          "cargo": "GER. SUPORTE",
+          "matricula": "77526.0",
+          "cpf": "14114706620",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 14114706620"
+      },
+      {
+        "colaborador": {
+          "usuario": "schramm@beta.com.br",
+          "nome": "Eli",
+          "sobrenome": "Schramm",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12121212121",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 12121212121"
+      },
+      {
+        "colaborador": {
+          "usuario": "anderson.buzzi1@beta.com.br",
+          "nome": "Anderson",
+          "sobrenome": "Buzzi 1",
+          "cargo": "Desenvolvedor",
+          "matricula": "",
+          "cpf": "22222222222",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 22222222222"
+      },
+      {
+        "colaborador": {
+          "usuario": "mateusferrando@gmail.com",
+          "nome": "MATEUS HENRIQUE ALVES",
+          "sobrenome": "CORTES",
+          "cargo": "ESCRITURARIO DE AGENCIA",
+          "matricula": "57641",
+          "cpf": "45251217854",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "task@beta.com.br",
+          "nome": "Teste",
+          "sobrenome": "PAY-3473",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "77024322098",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "taskk@beta.com.br",
+          "nome": "Task",
+          "sobrenome": "PAY-4201",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "07783783066",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "brunalaurindo@beta.com.br",
+          "nome": "Bruna",
+          "sobrenome": "Laurindo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "08379753950",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "anderson.buzzi@beta.com.br",
+          "nome": "Anderson",
+          "sobrenome": "Buzzi",
+          "cargo": "Desenvolvedor",
+          "matricula": "",
+          "cpf": "42628793059",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "wagintg@beta.com.br",
+          "nome": "Wagnao",
+          "sobrenome": "Salvador Integração",
+          "cargo": "Gerente Regional de Desenvolvimento - Coop Porte III e IV",
+          "matricula": "",
+          "cpf": "46472009777",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 46472009777"
+      },
+      {
+        "colaborador": {
+          "usuario": "mateus1@beta.com.br",
+          "nome": "Mateus1",
+          "sobrenome": "Ferrando",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "58134395015",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "romulo@beta.com.br",
+          "nome": "Rômulo",
+          "sobrenome": "Fernando",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "08550724904",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "wagner.salvador@beta.com.br",
+          "nome": "Wagner",
+          "sobrenome": "Salvador",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10500000000",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 10500000000"
+      },
+      {
+        "colaborador": {
+          "usuario": "ramon.weiss@beta.com.br",
+          "nome": "Ramon",
+          "sobrenome": "Weiss 2",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "88888888888",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 88888888888"
+      },
+      {
+        "colaborador": {
+          "usuario": "ana.maria@paytrack.com.br",
+          "nome": "Ana Maria",
+          "sobrenome": "Braga 01",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12345678942",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 12345678942"
+      },
+      {
+        "colaborador": {
+          "usuario": "juju@paytrack.com.br",
+          "nome": "Juliana",
+          "sobrenome": "Schneider",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "09876526789",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 09876526789"
+      },
+      {
+        "colaborador": {
+          "usuario": "luana.amaral@beta.com.br",
+          "nome": "Luana",
+          "sobrenome": "Amaral",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "45321784902",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 45321784902"
+      },
+      {
+        "colaborador": {
+          "usuario": "englishuser@beta.com.br",
+          "nome": "English",
+          "sobrenome": "User",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "45612385293",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 45612385293"
+      },
+      {
+        "colaborador": {
+          "usuario": "guilherme.pereira@beta.com.br",
+          "nome": "Guilherme",
+          "sobrenome": "Beta",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "78797878979",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 78797878979"
+      },
+      {
+        "colaborador": {
+          "usuario": "palestrante@beta.com.br",
+          "nome": "Palestrante",
+          "sobrenome": "Beta",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01522363222",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 01522363222"
+      },
+      {
+        "colaborador": {
+          "usuario": "solicitante2@beta.com.br",
+          "nome": "Solicitante",
+          "sobrenome": "2",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "04050804848",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 04050804848"
+      },
+      {
+        "colaborador": {
+          "usuario": "lucas.goes@beta.com.br",
+          "nome": "Lucas",
+          "sobrenome": ".",
+          "cargo": "",
+          "matricula": "46",
+          "cpf": "06310035843",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "francovegini@beta.com.br",
+          "nome": "Franco",
+          "sobrenome": "Vegini",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "21412412412",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 21412412412"
+      },
+      {
+        "colaborador": {
+          "usuario": "manu@beta.com.br",
+          "nome": "Manuela",
+          "sobrenome": "Ferretti",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "21354321035",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 21354321035"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste@beta.com.br",
+          "nome": "Teste",
+          "sobrenome": "Beta",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "59899626595",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 59899626595"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste2@beta",
+          "nome": "Teste 2",
+          "sobrenome": "Beta",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "89798795959",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 89798795959"
+      },
+      {
+        "colaborador": {
+          "usuario": "sdr1@beta.com.br",
+          "nome": "SDR 1",
+          "sobrenome": "VENDAS",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "13131313131",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 13131313131"
+      },
+      {
+        "colaborador": {
+          "usuario": "gabriela@beta",
+          "nome": "Gabriela",
+          "sobrenome": "Laurindo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "21235435546",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 21235435546"
+      },
+      {
+        "colaborador": {
+          "usuario": "heverton@beta.com.br",
+          "nome": "Heverton",
+          "sobrenome": "Tavares",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12388045606",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luciane12@beta.com.br",
+          "nome": "Luciane ",
+          "sobrenome": "Posanske",
+          "cargo": "Gerente de Negócios PJ I",
+          "matricula": "23554888",
+          "cpf": "2323232323",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 2323232323"
+      },
+      {
+        "colaborador": {
+          "usuario": "aline.silva@beta.com.br",
+          "nome": "Maria",
+          "sobrenome": "Pata",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "47563356498",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 47563356498"
+      },
+      {
+        "colaborador": {
+          "usuario": "giovani@beta.com.br",
+          "nome": "Giovani",
+          "sobrenome": "Silva",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "45836489017",
+          "empresa_cnpj": "89898989898988",
+          "empresa_nome": "Empresa pagadora",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "philip@beta.com.br",
+          "nome": "Philip",
+          "sobrenome": "Haertel",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "55323346760",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "roni.silva@paytrack.com.br",
+          "nome": "Roni da",
+          "sobrenome": "Silva",
+          "cargo": "COORDENADOR(A) PL",
+          "matricula": "201251.0",
+          "cpf": "60945895054",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luanaa@beta.com.br",
+          "nome": "Luana",
+          "sobrenome": "Schmidt",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10990609796",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 10990609796"
+      },
+      {
+        "colaborador": {
+          "usuario": "laura@beta.com.br",
+          "nome": "Laura",
+          "sobrenome": "Silva",
+          "cargo": "",
+          "matricula": "1234567897",
+          "cpf": "123.456.789-96",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 123.456.789-96"
+      },
+      {
+        "colaborador": {
+          "usuario": "mariajoaquina@beta.com.br",
+          "nome": "Maria Joaquina",
+          "sobrenome": "Sbt",
+          "cargo": "",
+          "matricula": "04380000422",
+          "cpf": "39876816080",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "sem_matricula@beta.com.br",
+          "nome": "Teste sem",
+          "sobrenome": "matricula",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00011122233",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 00011122233"
+      },
+      {
+        "colaborador": {
+          "usuario": "lais.telles@beta.com.br",
+          "nome": "lais",
+          "sobrenome": "telles",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "97848623106",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "daniela.koch@beta.com.br",
+          "nome": "daniela",
+          "sobrenome": "koch",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "20968412327",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "manuela.ferretti@beta.com.br",
+          "nome": "manuela",
+          "sobrenome": "ferretti",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "16079743477",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "giovani.silva@beta.com.br",
+          "nome": "giovani",
+          "sobrenome": "silva",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "22022505573",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "mateus.ferrando@beta.com.br",
+          "nome": "mateus",
+          "sobrenome": "ferrando",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "15369218749",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "franco.alvarez@beta.com.br",
+          "nome": "franco",
+          "sobrenome": "alvarez",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "76823628391",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "claudio.wagner@beta.com.br",
+          "nome": "claudio",
+          "sobrenome": "wagner",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "64262258513",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "matheus.lima@beta.com.br",
+          "nome": "matheus",
+          "sobrenome": "lima",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "50647802228",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "eduardo.buchele@beta.com.br",
+          "nome": "eduardo",
+          "sobrenome": "buchele",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "94427232949",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "philip.haertel@beta.com.br",
+          "nome": "philip.haertel",
+          "sobrenome": "beta",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "1000",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 1000"
+      },
+      {
+        "colaborador": {
+          "usuario": "luana.schmidt@beta.com.br",
+          "nome": "luana",
+          "sobrenome": "schmidt",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "06146919748",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luiz.adriano@beta.com.br",
+          "nome": "Luiz",
+          "sobrenome": "Adriano",
+          "cargo": "",
+          "matricula": "1",
+          "cpf": "12345698712",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 12345698712"
+      },
+      {
+        "colaborador": {
+          "usuario": "aaa@beta.com.br",
+          "nome": "teste",
+          "sobrenome": "2",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10990650979",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "eduardo@beta.com.br",
+          "nome": "eduardo",
+          "sobrenome": "buchele",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "04717688988",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "mateus.freitas@beta.com.br",
+          "nome": "Mateus",
+          "sobrenome": "Freitas",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12012555977",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "agencianeni@beta.com.br",
+          "nome": "agencia",
+          "sobrenome": "neniaaaz",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "37814251001",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "planilha.teste2710@gmail.com",
+          "nome": "Planilasdha",
+          "sobrenome": "Teste26101",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "99999999999",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 99999999999"
+      },
+      {
+        "colaborador": {
+          "usuario": "brenda.rodrigues@beta.com.br",
+          "nome": "Brenda",
+          "sobrenome": "Rodrigues",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "08694380935",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "brenda.aprovador@beta.com.br",
+          "nome": "Aprovador",
+          "sobrenome": "para Teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "27762035001",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "brenda.colaborador@beta.com.br",
+          "nome": "Colaborador",
+          "sobrenome": "Para Teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "78110823068",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "lindoldo.lindo@beta.com.br",
+          "nome": "Lindolfo",
+          "sobrenome": "Lindo",
+          "cargo": "CONSULTOR(A) DE VENDAS",
+          "matricula": "205750.0",
+          "cpf": "76628509001",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "linda@beta.com.br",
+          "nome": "Linda",
+          "sobrenome": "Lindolfa",
+          "cargo": "COORDENADOR(A) PL",
+          "matricula": "201251.0",
+          "cpf": "68258017080",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "lucas.hillesheim@beta.com.br",
+          "nome": "Lucas",
+          "sobrenome": "Hillesheim",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12345678932",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 12345678932"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste6@beta.com.br",
+          "nome": "Ana Pessoa Teste",
+          "sobrenome": "Seis",
+          "cargo": "",
+          "matricula": "60",
+          "cpf": "28113452052",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "giovani.agencia@beta.com.br",
+          "nome": "Giovani da",
+          "sobrenome": "Agencia",
+          "cargo": "",
+          "matricula": "10001",
+          "cpf": "26001542058",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "ronaldo@beta.com.br",
+          "nome": "Gabriel",
+          "sobrenome": "Ronaldo B",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "87687587565",
+          "empresa_cnpj": "11111111111111",
+          "empresa_nome": "Unidade Felipe Haag",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 87687587565"
+      },
+      {
+        "colaborador": {
+          "usuario": "murilo.beta@beta",
+          "nome": "Murilo",
+          "sobrenome": "Lini",
+          "cargo": "",
+          "matricula": "65885",
+          "cpf": "12214124121",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 12214124121"
+      },
+      {
+        "colaborador": {
+          "usuario": "mayara@paytrack.com.br",
+          "nome": "Mayara",
+          "sobrenome": "Schmidt",
+          "cargo": "",
+          "matricula": "2",
+          "cpf": "16690839001",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luara@paytrack.com.br",
+          "nome": "Luara",
+          "sobrenome": "Gabrielle",
+          "cargo": "",
+          "matricula": "2",
+          "cpf": "15969865423",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 15969865423"
+      },
+      {
+        "colaborador": {
+          "usuario": "mariaa@paytrack.com.br",
+          "nome": "Maria",
+          "sobrenome": "Maria",
+          "cargo": "",
+          "matricula": "2",
+          "cpf": "59875395154",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 59875395154"
+      },
+      {
+        "colaborador": {
+          "usuario": "luu@paytrack.com.br",
+          "nome": "Luana",
+          "sobrenome": "Maria",
+          "cargo": "",
+          "matricula": "2",
+          "cpf": "96385245698",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 96385245698"
+      },
+      {
+        "colaborador": {
+          "usuario": "manubeta.com.br",
+          "nome": "Manu",
+          "sobrenome": "Ferretti",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "21403546432",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 21403546432"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste.paytrack",
+          "nome": "teste",
+          "sobrenome": "souza",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "45684252251",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 45684252251"
+      },
+      {
+        "colaborador": {
+          "usuario": "testetermo@beta",
+          "nome": "test",
+          "sobrenome": "termo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "65986565665",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 65986565665"
+      },
+      {
+        "colaborador": {
+          "usuario": "ivango.wippel@beta.com.br",
+          "nome": "Ivango",
+          "sobrenome": "Wippel",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "99988877766",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 99988877766"
+      },
+      {
+        "colaborador": {
+          "usuario": "maria@beta.com",
+          "nome": "Maria",
+          "sobrenome": "Beta",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "56989898989",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 56989898989"
+      },
+      {
+        "colaborador": {
+          "usuario": "gabriel.teste@paytrack.com.br",
+          "nome": "Gabriel",
+          "sobrenome": "Teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "09909909959",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 09909909959"
+      },
+      {
+        "colaborador": {
+          "usuario": "francisco@paytrack.com.br",
+          "nome": "Francisco",
+          "sobrenome": "Silva",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "21584584584",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 21584584584"
+      },
+      {
+        "colaborador": {
+          "usuario": "bianca@paytrack.com.br",
+          "nome": "Bianca Ana",
+          "sobrenome": "Baptista",
+          "cargo": "",
+          "matricula": "123",
+          "cpf": "74265646905",
+          "empresa_cnpj": "13433333333333",
+          "empresa_nome": "teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fabio@paytrack.com.br",
+          "nome": "Fabio",
+          "sobrenome": "Olivera",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "1854121228",
+          "empresa_cnpj": "13433333333333",
+          "empresa_nome": "teste",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 1854121228"
+      },
+      {
+        "colaborador": {
+          "usuario": "mario@paytrack.com.br",
+          "nome": "mario",
+          "sobrenome": "teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "41589625988",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 41589625988"
+      },
+      {
+        "colaborador": {
+          "usuario": "super@paytrack.com.br",
+          "nome": "super",
+          "sobrenome": "teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "41589625981",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 41589625981"
+      },
+      {
+        "colaborador": {
+          "usuario": "mariafernanda@beta.com",
+          "nome": "maria",
+          "sobrenome": "fernanda",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "56897979797",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 56897979797"
+      },
+      {
+        "colaborador": {
+          "usuario": "maria_joaquina@beta.com",
+          "nome": "Maria",
+          "sobrenome": "Joaquina",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "56737747575",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 56737747575"
+      },
+      {
+        "colaborador": {
+          "usuario": "izabela@beta",
+          "nome": "Izabela",
+          "sobrenome": "Soares",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10563097923",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 10563097923"
+      },
+      {
+        "colaborador": {
+          "usuario": "agrimar.bio@gmail.com",
+          "nome": "Aurimar Antonio",
+          "sobrenome": "Cenedezi",
+          "cargo": "",
+          "matricula": "5754",
+          "cpf": "05878028808",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "brunoacaproni@gmail.com",
+          "nome": "BRUNO ANANIAS",
+          "sobrenome": "CAPRONI",
+          "cargo": "",
+          "matricula": "6230",
+          "cpf": "10780616618",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "iraue.vieira@gmail.com",
+          "nome": "IRAUÊ CASARIN VIEIRA DA",
+          "sobrenome": "SILVA",
+          "cargo": "",
+          "matricula": "4483",
+          "cpf": "17170776847",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jose.eusttaquio@gmail.com",
+          "nome": "JOSÉ",
+          "sobrenome": "EUSTÁQUIO",
+          "cargo": "",
+          "matricula": "2715",
+          "cpf": "05489210672",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "juliocs.agro@gmail.com",
+          "nome": "JULIO CESAR DOS",
+          "sobrenome": "SANTOS",
+          "cargo": "",
+          "matricula": "5962",
+          "cpf": "08182943612",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "mahbernardes91@gmail.com",
+          "nome": "MARILIA SOUZA",
+          "sobrenome": "BERNARDES",
+          "cargo": "",
+          "matricula": "6175",
+          "cpf": "07532738612",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "nielson.vaz@gmail.com",
+          "nome": "NIELSON BARBOSA",
+          "sobrenome": "VAZ",
+          "cargo": "",
+          "matricula": "6244",
+          "cpf": "26345508802",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "zimmerrepresentaco@gmail.com",
+          "nome": "PEDRO",
+          "sobrenome": "ZIMMER",
+          "cargo": "",
+          "matricula": "4534",
+          "cpf": "24775525034",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rodrigoagroptm@gmail.com",
+          "nome": "RODRIGO",
+          "sobrenome": "SILVA",
+          "cargo": "",
+          "matricula": "6413",
+          "cpf": "11409688666",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "valdetino.agronegocios@gmail.com",
+          "nome": "Valdetino Apolinário da",
+          "sobrenome": "Silva",
+          "cargo": "",
+          "matricula": "4987",
+          "cpf": "76133516615",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "trindade@beta.com.br",
+          "nome": "Lucas",
+          "sobrenome": "Trindade",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10000100010",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 10000100010"
+      },
+      {
+        "colaborador": {
+          "usuario": "neni@beta.com.br",
+          "nome": "Mateus",
+          "sobrenome": "Freitas",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "89498489498",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 89498489498"
+      },
+      {
+        "colaborador": {
+          "usuario": "joao.silva@paytrack.com.br",
+          "nome": "JOÃO CARLOS",
+          "sobrenome": "FARIAS DA SILVA",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "11122233344",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 11122233344"
+      },
+      {
+        "colaborador": {
+          "usuario": "katharina@beta.com.br",
+          "nome": "Katharina",
+          "sobrenome": "Beta",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "01452631496",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 01452631496"
+      },
+      {
+        "colaborador": {
+          "usuario": "usuarionovo@beta.com.br",
+          "nome": "usuario",
+          "sobrenome": "novo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "00088877779",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 00088877779"
+      },
+      {
+        "colaborador": {
+          "usuario": "dani.coelho@paytrack.com.br",
+          "nome": "Dani",
+          "sobrenome": "Coelho",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00010000001",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 00010000001"
+      },
+      {
+        "colaborador": {
+          "usuario": "ka@beta.com.br",
+          "nome": "Ka",
+          "sobrenome": "Katharina",
+          "cargo": "",
+          "matricula": "125",
+          "cpf": "55555555585",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 55555555585"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste1@beta.com.br",
+          "nome": "teste",
+          "sobrenome": "teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "01256321490",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 01256321490"
+      },
+      {
+        "colaborador": {
+          "usuario": "testandoadduser@beta.com.br",
+          "nome": "User",
+          "sobrenome": "Teste Add",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "02587413356",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 02587413356"
+      },
+      {
+        "colaborador": {
+          "usuario": "blener.valindolfo@beta.com",
+          "nome": "Blener",
+          "sobrenome": "Vbeta",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "35156358071",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "sara.teste@paytrack.com.br",
+          "nome": "Sara",
+          "sobrenome": "Teste",
+          "cargo": "",
+          "matricula": "1",
+          "cpf": "11200000000",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 11200000000"
+      },
+      {
+        "colaborador": {
+          "usuario": "300@paytrack.com.br",
+          "nome": "Trezentos",
+          "sobrenome": "Espartanos de Roma",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "10987654300",
+          "empresa_cnpj": "10101010101001",
+          "empresa_nome": "Unidade Chilena",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 10987654300"
+      },
+      {
+        "colaborador": {
+          "usuario": "usuarionovo@beta.com",
+          "nome": "Usuario",
+          "sobrenome": "Novo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "60781923026",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "emailimportado1@beta.com",
+          "nome": "Usuario",
+          "sobrenome": "importado",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "21706954000",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "emailimportado2@beta.com",
+          "nome": "Usuario importado",
+          "sobrenome": "2",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "14818227056",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "pedro.zwang@beta.com.br",
+          "nome": "Pedro",
+          "sobrenome": "Zwang",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "09990099978",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 09990099978"
+      },
+      {
+        "colaborador": {
+          "usuario": "cibeli@beta.com.br",
+          "nome": "Cibeli",
+          "sobrenome": "Oliveira",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "06112204908",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "manoel@gmail.com",
+          "nome": "manoel",
+          "sobrenome": "joão",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "98232846011",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "blener@beta",
+          "nome": "Blener",
+          "sobrenome": "Beta Teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "32165498730",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 32165498730"
+      },
+      {
+        "colaborador": {
+          "usuario": "newuser2@beta.com.br",
+          "nome": "Novo",
+          "sobrenome": "Usuario",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "15975346454",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 15975346454"
+      },
+      {
+        "colaborador": {
+          "usuario": "jheniffer.santos",
+          "nome": "Jheniffer",
+          "sobrenome": "Buzzi",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "33004765004",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab1@beta.com.br",
+          "nome": "Florzinha",
+          "sobrenome": "Menina super poderosa",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "76168903003",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab2@beta.com.br",
+          "nome": "Cosmo",
+          "sobrenome": "Padrinho Magico",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "28387779040",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab3@beta.com.br",
+          "nome": "Wanda",
+          "sobrenome": "Madrinha Magica",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "94202979001",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab4@beta.com.br",
+          "nome": "Lindinha",
+          "sobrenome": "Menina Super poderosa",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "95503132041",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab5@beta.com.br",
+          "nome": "Docinho",
+          "sobrenome": "Menina Super Poderosa",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "15091743707",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab6@beta.com.br",
+          "nome": "Professor",
+          "sobrenome": "Antonio",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "09093474090",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab7@beta.com.br",
+          "nome": "Senhorita",
+          "sobrenome": "Belo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "68151794003",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "emailimportado25@beta.com",
+          "nome": "Usuario importado",
+          "sobrenome": "2",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "12343297002",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "emailimportado26@beta.com",
+          "nome": "Usuario importado",
+          "sobrenome": "3",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "12343297003",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 12343297003"
+      },
+      {
+        "colaborador": {
+          "usuario": "michel@beta.com.br",
+          "nome": "Michel",
+          "sobrenome": "Varella",
+          "cargo": "Analista de qualidade",
+          "matricula": null,
+          "cpf": "09645875640",
+          "empresa_cnpj": "10628270000105",
+          "empresa_nome": "Varella Organizações LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 09645875640"
+      },
+      {
+        "colaborador": {
+          "usuario": "ramon.f.weiss@beta.com.br",
+          "nome": "Ramon",
+          "sobrenome": "F Weiss",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "07406693978",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 07406693978"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab007@beta.com.br",
+          "nome": "Colab",
+          "sobrenome": "007",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "07405582899",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 07405582899"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab008@beta.com.br",
+          "nome": "Colab",
+          "sobrenome": "008",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "07405582888",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 07405582888"
+      },
+      {
+        "colaborador": {
+          "usuario": "ronaldo1@beta.com.br",
+          "nome": "Ronaldo",
+          "sobrenome": "TESTE",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "06825451634",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "ramon.fernando@paytrack.com.br",
+          "nome": "Ramon",
+          "sobrenome": "Weiss",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "07406693988",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 07406693988"
+      },
+      {
+        "colaborador": {
+          "usuario": "varella@beta.com.br",
+          "nome": "Varella",
+          "sobrenome": "W",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12",
+          "empresa_cnpj": "10628270000105",
+          "empresa_nome": "Varella Organizações LTDA",
+          "centro_custo_identificador": "CC_ORIGINAL",
+          "centro_custo_nome": "Centros de Custo"
+        },
+        "error": "CPF invalido: 12"
+      },
+      {
+        "colaborador": {
+          "usuario": "testerateio@paytrack.com.br",
+          "nome": "Juãozinho",
+          "sobrenome": "Pereira",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "98765489991",
+          "empresa_cnpj": "26142665000123",
+          "empresa_nome": "Unidade de Negócio",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 98765489991"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab8@beta.com.br",
+          "nome": "Colaboradora",
+          "sobrenome": "Oito",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "96385214745",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 96385214745"
+      },
+      {
+        "colaborador": {
+          "usuario": "endress@beta.com.br",
+          "nome": "endress",
+          "sobrenome": "Hauser",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "78457854778",
+          "empresa_cnpj": "19099364000107",
+          "empresa_nome": "Teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 78457854778"
+      },
+      {
+        "colaborador": {
+          "usuario": "ru@beta.com.br",
+          "nome": "Ru",
+          "sobrenome": "Car",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "98566744155",
+          "empresa_cnpj": "64312313123120",
+          "empresa_nome": "EndressTeste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 98566744155"
+      },
+      {
+        "colaborador": {
+          "usuario": "ruaaaaa",
+          "nome": "ruannn",
+          "sobrenome": "fdfsdf",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "54454545454",
+          "empresa_cnpj": "10101010101001",
+          "empresa_nome": "Unidade Chilena",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 54454545454"
+      },
+      {
+        "colaborador": {
+          "usuario": "matheus.santos@beta.com.br",
+          "nome": "Matheus",
+          "sobrenome": "Grabner dos Santos",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "33366655599",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 33366655599"
+      },
+      {
+        "colaborador": {
+          "usuario": "anamuellertaufen",
+          "nome": "Ana Luiza Taufenbach",
+          "sobrenome": "Mueller",
+          "cargo": null,
+          "matricula": "buzzi",
+          "cpf": "08436423941",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "adelitaednapereiradovalle",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "05326564904",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "ademirschiessl",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "57367604953",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "adriancampagnoli",
+          "nome": "",
+          "sobrenome": "11.081.096/0003-48",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "41371893829",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "adrianacaetanodesouzalima",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00492204977",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "alainpierrebeckert",
+          "nome": "alainpierrebeckert",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07041327965",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "aleksandrodeamorim",
+          "nome": "",
+          "sobrenome": "81.315.426/0028-56",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "19920122882",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "alessandroferreiralins",
+          "nome": "",
+          "sobrenome": "11.350.362/0003-90",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "59797061191",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "alexandrebollmann",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00417477988",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "almirrogeriodelima",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "81700369920",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "amandabiancacorreapiechontcoski",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "11418077933",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "andrevolpivalim",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "02810073902",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "andreiacristinademenezessoares",
+          "nome": "kau teste",
+          "sobrenome": "teste",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "85636258100",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "bentaestervieiradoprado",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "89078713968",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "brunaferreiradasilvapiske",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "09693951913",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "claudetedefrancafeitosa",
+          "nome": "claudetedefrancafeitosa",
+          "sobrenome": "11.350.362/0001-29",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "99432986187",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "claudinirdeassiscordeiro",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "72029412953",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "cleberdossantoscunha",
+          "nome": "",
+          "sobrenome": "11.350.362/0006-33",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01902208560",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "cleoniceliebl",
+          "nome": "cleonice",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01015025919",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "creuzafreitaslima",
+          "nome": "hhjh",
+          "sobrenome": "09.650.229/0002-27",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "123456",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 123456"
+      },
+      {
+        "colaborador": {
+          "usuario": "danielrodriguesdesousa",
+          "nome": "danielrodriguesdesousa",
+          "sobrenome": "10.701.174/0001-35",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00114167346",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "danielejalhiummagridasilva",
+          "nome": "fff",
+          "sobrenome": "10.701.174/0002-16",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "21291249842",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "deisicristianestieglercampinas",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "82111855987",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "diogocubas",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04715344980",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "domingosdesouzafilho",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "02411497970",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "douglastschoke",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "02661171983",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "edsondasilva",
+          "nome": "",
+          "sobrenome": "11.350.362/0004-71",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "71631550420",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "edsonosnildoneumann",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "53690869900",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "eduardobandeirasilva",
+          "nome": "Usuário Gestor",
+          "sobrenome": "11.350.362/0003-90",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "87289423100",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "ericoromerafulco",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "03771446902",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "evelinmuhlbauer",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "63335077920",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "evertongadotti",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00497627965",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "ezequielcagliaridasilva",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "05581965943",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fabianacristinavelhobatista",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04224579901",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fabioribeiro",
+          "nome": "",
+          "sobrenome": "81.315.426/0031-51",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "03396915909",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fabiorobertobayerl",
+          "nome": "",
+          "sobrenome": "81.315.426/0004-89",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "72029366900",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fabioweihermann",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "02961062918",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fabioladornelaslopes",
+          "nome": "",
+          "sobrenome": "11.350.362/0002-00",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04602472478",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "felipealvesdasilva",
+          "nome": "felipe",
+          "sobrenome": "09.650.229/0005-70",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00000000002",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 00000000002"
+      },
+      {
+        "colaborador": {
+          "usuario": "fernandonass",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "06755253901",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "fernandorenatorodriguesdasilva",
+          "nome": "Fernando",
+          "sobrenome": "Renato",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00310548039",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "francineottocieslinsky",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00580387950",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "franciscorosadealmeida",
+          "nome": "chico",
+          "sobrenome": "09.650.229/0002-27",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "30269113304",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "franciscotadeumoreiracesario",
+          "nome": "Francisco",
+          "sobrenome": "10.941.252/0001-79",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01294459678",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "colaborador@paytraquio.com.br",
+          "nome": "colaborador paytrackio",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "15437230982",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "genilsojosesopchaki",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "05917207950",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "geovanediegodelimalopes",
+          "nome": "geovanediegodelimalopes",
+          "sobrenome": "11.350.362/0005-52",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "10495506419",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gersonworm",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01010857967",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gesanecarolinesilvasantos",
+          "nome": "11",
+          "sobrenome": "10.701.174/0001-35",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01883583152",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gilsonodairantonelli",
+          "nome": "Gabriel Teste de teste",
+          "sobrenome": "Boeing de teste Bertholdo",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "06859853859",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gisleidelinsdasilvacastro",
+          "nome": "gisl",
+          "sobrenome": "09.650.229/0005-70",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "03314980736",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gustavobollmann",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00453558941",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "heberhenriquepenowcampos",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "31022698850",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "henriqueluizdasilvajunior",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07471401974",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "inaciokotovicz",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04434733907",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jailsonrodrigoplanca",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "72020059991",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jaimewiatek",
+          "nome": "",
+          "sobrenome": "81.315.426/0009-93",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "96988584900",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jeanccsoares",
+          "nome": "jeanccsoares",
+          "sobrenome": "10.941.252/0002-50",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "93840012520",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jeisonluisdesouzafreitas",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04234218910",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jenniferstollzemannnakabayashi",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07862959965",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "joacirdasilvaesouza",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "80913130982",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "joelcarvalhodasilva",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "05148409940",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jonathanluy",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00669335959",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "josecarlosdasilvagomesjunior",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "11248035801",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "joselidiomarbatista",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00341106909",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "joseotaviorodrigues",
+          "nome": "",
+          "sobrenome": "11.081.096/0001-86",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "28094438827",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "joserafaelrodrigues",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01024106900",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "josetadeufernandessaquete",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01825702829",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "josiasdasilvaesouza",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "82112150987",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "karilenendler",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04172403921",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "karinabollmannsilveira",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00503922986",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "katiaelainekohn",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "05926870909",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "kelvinaraujosilvasantos",
+          "nome": "",
+          "sobrenome": "10.941.252/0003-30",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "02051457603",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "leandrosantanadacruz",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "03391855975",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "leninefernandessilva",
+          "nome": "hjgdntydjhdntgduyh",
+          "sobrenome": "11.350.362/0002-00",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "03105078479",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "leomariargas",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07307218925",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "leonardofeuser",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07214625962",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "lindomarneumann",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "03147007901",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "lucasjunktonropke",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "06674093947",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luirandonascimentobetfuer",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "36474267844",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luisfernandocosta",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "80218946015",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luizcarlosdefaveri",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "55168337953",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "luizclaudiogayerschuves",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "65150473987",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "marcelomansano",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00488521980",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "marcelopradodesouza",
+          "nome": "teste",
+          "sobrenome": "10.144.595/0001-02",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "66794994020",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "marceloswirkowsky",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04829451920",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "marcosfabiofuck",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "98869612953",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "kelvemmaluco",
+          "nome": "aaaaa",
+          "sobrenome": "bbbbb",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "35169615892",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "marcusviniciuscaetanoleite",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01703896777",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "mayaradarosasprotte",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "06569541919",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "mayrasuelencielusinskicanha",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07408274995",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "paulomoraislopes",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "65499778949",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "paulosergiopscheidt",
+          "nome": "",
+          "sobrenome": "81.315.426/0027-75",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00340590912",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rafaelcoutinhocavalcanti",
+          "nome": "kkk",
+          "sobrenome": "10.701.174/0002-16",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "30461102862",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "renatocolagrandejunior",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "87161087953",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rilmadasilvasantosalves",
+          "nome": "rilmadasilvasantosalves",
+          "sobrenome": "11.350.362/0003-90",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01427778116",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "robsonmarcelinoconti",
+          "nome": "robson",
+          "sobrenome": "10.144.595/0002-93",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "03800622912",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rodrigomuller",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07966039951",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rodrigovieira",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04772831959",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rogermerosmuldenberger",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "07743431924",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "rogerionavarrodiniz",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "09525090833",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "saulomartinsgoncalves",
+          "nome": "dd",
+          "sobrenome": "10.384.095/0003-00",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "01037939921",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "soniamarapartala",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04275612990",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "sueellenwatusigertlerheuchling",
+          "nome": "",
+          "sobrenome": "81.315.426/0028-56",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04402732930",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "suelenthaisfurst",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "04676780907",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "10.144.595/0002-93",
+          "nome": "10.144.595/0002-93",
+          "sobrenome": "10.144.595/0002-93",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "26939506861",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "udohanssonntag",
+          "nome": "",
+          "sobrenome": "81.315.426/0009-93",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "00513051945",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "valmirjalasco",
+          "nome": "",
+          "sobrenome": "81.315.426/0004-89",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "63803380987",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "valmirlorenzetti",
+          "nome": "",
+          "sobrenome": "81.315.426/0014-50",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "58545891920",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "vanessamaciel",
+          "nome": "",
+          "sobrenome": "81.315.426/0001-36",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "10054925908",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "email@emial.com",
+          "nome": "Adelita Edna Pereira do",
+          "sobrenome": "Valle",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "05326564000",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 05326564000"
+      },
+      {
+        "colaborador": {
+          "usuario": "judith@beta.com.br",
+          "nome": "CASSANDRA",
+          "sobrenome": "SILVA",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "64664126522",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "renato@beta.com.br",
+          "nome": "RENATO",
+          "sobrenome": "SOUSA",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "26657698402",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "pedrocabeta",
+          "nome": "Pedro",
+          "sobrenome": "Garcia - TESTE",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12668734908",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "anna.teste@paytrack.com.br",
+          "nome": "Ana Júlia",
+          "sobrenome": "Cardoso",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10058745698",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": "1.01.2.1.3.02",
+          "centro_custo_nome": "CTC Randall - Costa Rica"
+        },
+        "error": "CPF invalido: 10058745698"
+      },
+      {
+        "colaborador": {
+          "usuario": "gustavo009874899",
+          "nome": "gustavo",
+          "sobrenome": "ghuanm",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "02122545895",
+          "empresa_cnpj": "11111111111111",
+          "empresa_nome": "Unidade Argentina",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 02122545895"
+      },
+      {
+        "colaborador": {
+          "usuario": "agencia1teste",
+          "nome": "Agencia",
+          "sobrenome": "- Teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "22222211111",
+          "empresa_cnpj": "19099364000107",
+          "empresa_nome": "Teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 22222211111"
+      },
+      {
+        "colaborador": {
+          "usuario": "testeronaldo",
+          "nome": "testeronaldo",
+          "sobrenome": "testeronaldo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "54564564564",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 54564564564"
+      },
+      {
+        "colaborador": {
+          "usuario": "testego",
+          "nome": "testego",
+          "sobrenome": "testego",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "15456456465",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 15456456465"
+      },
+      {
+        "colaborador": {
+          "usuario": "ggg",
+          "nome": "ggg",
+          "sobrenome": "ggg",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "66666666666",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 66666666666"
+      },
+      {
+        "colaborador": {
+          "usuario": "scarlet@teste.com",
+          "nome": "Scar Bueno",
+          "sobrenome": "Silva",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "10573245665",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "testeanonimizar",
+          "nome": "Teste",
+          "sobrenome": "Anonimizar",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "08286285999",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "gabriel.batista@beta.com.br",
+          "nome": "gabriel",
+          "sobrenome": "batista",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "14693949604",
+          "empresa_cnpj": "10628270000105",
+          "empresa_nome": "Varella Organizações LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "jean.moller",
+          "nome": "Jean Möller",
+          "sobrenome": "Möller",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "00000000021",
+          "empresa_cnpj": "41654136513132",
+          "empresa_nome": "gthfhbn",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 00000000021"
+      },
+      {
+        "colaborador": {
+          "usuario": "jean.carlos.moller",
+          "nome": "Jean",
+          "sobrenome": "Carlos Möller",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "01010101010",
+          "empresa_cnpj": "111111111",
+          "empresa_nome": "teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 01010101010"
+      },
+      {
+        "colaborador": {
+          "usuario": "jc.moller",
+          "nome": "Moller",
+          "sobrenome": "jc",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "12312312312",
+          "empresa_cnpj": "19099364000107",
+          "empresa_nome": "Teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 12312312312"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab28@zulu.com.br",
+          "nome": "Colab",
+          "sobrenome": "28",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "78941651160",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": "01 - Teste 2021",
+          "centro_custo_nome": "01 - Teste 2021"
+        },
+        "error": "CPF invalido: 78941651160"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab29@zulu.com.br",
+          "nome": "Colab",
+          "sobrenome": "29",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "51659846511",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": "01 - Teste 2021",
+          "centro_custo_nome": "01 - Teste 2021"
+        },
+        "error": "CPF invalido: 51659846511"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab30@zulu.com.br",
+          "nome": "Colab",
+          "sobrenome": "30",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "65120665150",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": "01 - Teste 2021",
+          "centro_custo_nome": "01 - Teste 2021"
+        },
+        "error": "CPF invalido: 65120665150"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab31@zulu.com.br",
+          "nome": "Colab",
+          "sobrenome": "31",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "10031654610",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": "01 - Teste 2021",
+          "centro_custo_nome": "01 - Teste 2021"
+        },
+        "error": "CPF invalido: 10031654610"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab32@zulu.com.br",
+          "nome": "Colab",
+          "sobrenome": "32",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "15000561651",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": "01 - Teste 2021",
+          "centro_custo_nome": "01 - Teste 2021"
+        },
+        "error": "CPF invalido: 15000561651"
+      },
+      {
+        "colaborador": {
+          "usuario": "colab33@zulu.com.br",
+          "nome": "Colab",
+          "sobrenome": "33",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "32003322560",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": "01 - Teste 2021",
+          "centro_custo_nome": "01 - Teste 2021"
+        },
+        "error": "CPF invalido: 32003322560"
+      },
+      {
+        "colaborador": {
+          "usuario": "allofana",
+          "nome": "Ana Luiza Taufenbach",
+          "sobrenome": "Mueller",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "08436423942",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 08436423942"
+      },
+      {
+        "colaborador": {
+          "usuario": "jeancm321",
+          "nome": "teste",
+          "sobrenome": "moller",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "00111223328",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 00111223328"
+      },
+      {
+        "colaborador": {
+          "usuario": "joaoteste",
+          "nome": "João",
+          "sobrenome": "Joao",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "85055892030",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "barbarastychnicki",
+          "nome": "Barbara",
+          "sobrenome": "Stychnicki",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10336453973",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "matheus.grabner@",
+          "nome": "Matheus",
+          "sobrenome": "Grabner dos Santos",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "43289748932",
+          "empresa_cnpj": "19099364000107",
+          "empresa_nome": "Teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 43289748932"
+      },
+      {
+        "colaborador": {
+          "usuario": "jheniffer.claudino",
+          "nome": "Jheniffer",
+          "sobrenome": "Claudino",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "90470838060",
+          "empresa_cnpj": "13045097000109",
+          "empresa_nome": "MY AGENCIA DE PROPAGANDA LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "usuariotesteum",
+          "nome": "Teste",
+          "sobrenome": "Um",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "98756423056",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 98756423056"
+      },
+      {
+        "colaborador": {
+          "usuario": "tewirth",
+          "nome": "Thealmo E",
+          "sobrenome": "Wirth",
+          "cargo": "CSM",
+          "matricula": "xxxxxx",
+          "cpf": "24950645900",
+          "empresa_cnpj": "12316541646545",
+          "empresa_nome": "TRUCKS COMERCIO",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "pansejc",
+          "nome": "Juliana",
+          "sobrenome": "Pansera",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "03016071924",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "scarlet.bueno",
+          "nome": "scarlet",
+          "sobrenome": "buenooo",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10572158798",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 10572158798"
+      },
+      {
+        "colaborador": {
+          "usuario": "cpfduplicado@teste.com.br",
+          "nome": "Luquinhas",
+          "sobrenome": "1",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "28975134032",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "28975134032",
+          "nome": "Luquinhas",
+          "sobrenome": "2",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "31241241241",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 31241241241"
+      },
+      {
+        "colaborador": {
+          "usuario": "tamiradavelli",
+          "nome": "Tamires",
+          "sobrenome": "Radavelli",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "34781698018",
+          "empresa_cnpj": "19099364000107",
+          "empresa_nome": "Teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "mkt@beta.com.br",
+          "nome": "Amanda",
+          "sobrenome": "Silva",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10928762789",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 10928762789"
+      },
+      {
+        "colaborador": {
+          "usuario": "mktadm@beta.com.br",
+          "nome": "Geovane",
+          "sobrenome": "Soares",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "23456789086",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 23456789086"
+      },
+      {
+        "colaborador": {
+          "usuario": "steff@paytrack.com.br",
+          "nome": "Steffany",
+          "sobrenome": "Martins",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "25988744152",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 25988744152"
+      },
+      {
+        "colaborador": {
+          "usuario": "centraldeajuda@paytrack.com.br",
+          "nome": "Central",
+          "sobrenome": "de ajuda",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "89754621354",
+          "empresa_cnpj": "111111111",
+          "empresa_nome": "teste",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 89754621354"
+      },
+      {
+        "colaborador": {
+          "usuario": "mateus.brito@beta.com.br",
+          "nome": "Mateus",
+          "sobrenome": "Brito",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "77766633366",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 77766633366"
+      },
+      {
+        "colaborador": {
+          "usuario": "cad",
+          "nome": "cadastro",
+          "sobrenome": "de cliente",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "41526357725",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 41526357725"
+      },
+      {
+        "colaborador": {
+          "usuario": "james_salada",
+          "nome": "James salada",
+          "sobrenome": "de frutra",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "74185296356",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 74185296356"
+      },
+      {
+        "colaborador": {
+          "usuario": "planilha.teste1027@gmail.com",
+          "nome": "Planilasdha",
+          "sobrenome": "Teste26101",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "10101010101",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 10101010101"
+      },
+      {
+        "colaborador": {
+          "usuario": "importado12@zulu.com",
+          "nome": "usuario importação",
+          "sobrenome": "12",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "11114151027",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 11114151027"
+      },
+      {
+        "colaborador": {
+          "usuario": "importado13@zulu.com",
+          "nome": "usuario importação",
+          "sobrenome": "13",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "11114151026",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 11114151026"
+      },
+      {
+        "colaborador": {
+          "usuario": "importado16@zulu.com",
+          "nome": "usuario importação",
+          "sobrenome": "16",
+          "cargo": "",
+          "matricula": "",
+          "cpf": "11114151028",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 11114151028"
+      },
+      {
+        "colaborador": {
+          "usuario": "gustavo.wippel",
+          "nome": "Gustavo",
+          "sobrenome": "Wippel",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "78887777777",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 78887777777"
+      },
+      {
+        "colaborador": {
+          "usuario": "ruan.scherer",
+          "nome": "Ruan",
+          "sobrenome": "Scherer",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "77994444494",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 77994444494"
+      },
+      {
+        "colaborador": {
+          "usuario": "giovani.oliveira",
+          "nome": "Giovani",
+          "sobrenome": "Oliveira",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "15975611468",
+          "empresa_cnpj": "4568956432160",
+          "empresa_nome": "Empresa Filial 111",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 15975611468"
+      },
+      {
+        "colaborador": {
+          "usuario": "anninha.hostert",
+          "nome": "Anna Paula",
+          "sobrenome": "Hostert",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "05214789653",
+          "empresa_cnpj": "10628270000105",
+          "empresa_nome": "Varella Organizações LTDA",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 05214789653"
+      },
+      {
+        "colaborador": {
+          "usuario": "kaueendler",
+          "nome": "Kauê",
+          "sobrenome": "Endler",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "11122233354",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 11122233354"
+      },
+      {
+        "colaborador": {
+          "usuario": "mvilbert@pay",
+          "nome": "matheus",
+          "sobrenome": "Vilbert",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "10000000000",
+          "empresa_cnpj": "12345678910200",
+          "empresa_nome": "Empresa 5",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 10000000000"
+      },
+      {
+        "colaborador": {
+          "usuario": "souza@beta.com.br",
+          "nome": "Rafael",
+          "sobrenome": "Souza",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "01234567890",
+          "empresa_cnpj": "45612342367890",
+          "empresa_nome": "Empresa Filial 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "usuario2024@beta.com.br",
+          "nome": "Usuário",
+          "sobrenome": "beta",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "13162159032",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "Colaborador sem centro de custo nao pode ser cadastrado"
+      },
+      {
+        "colaborador": {
+          "usuario": "123teste",
+          "nome": "123teste",
+          "sobrenome": "123teste",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "54646546545",
+          "empresa_cnpj": "00000000000000",
+          "empresa_nome": "Empresa 2",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 54646546545"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste_ronaldo",
+          "nome": "Ronaldo",
+          "sobrenome": "Boeing",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "87489789789",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 87489789789"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste_ronaldo1",
+          "nome": "Ronaldo",
+          "sobrenome": "Boeing",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "87897354455",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 87897354455"
+      },
+      {
+        "colaborador": {
+          "usuario": "teste_ronaldo3",
+          "nome": "Ronaldo",
+          "sobrenome": "Boeing",
+          "cargo": null,
+          "matricula": null,
+          "cpf": "98787354545",
+          "empresa_cnpj": "77777777777777",
+          "empresa_nome": "Empresa BI",
+          "centro_custo_identificador": null,
+          "centro_custo_nome": null
+        },
+        "error": "CPF invalido: 98787354545"
+      }
+    ]
+  }
+}

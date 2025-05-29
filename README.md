@@ -15,11 +15,11 @@ Sistema automatizado para integração de dados de colaboradores via API, desenv
 
 ```
 src/
-??? config/          # Configurações (banco, API)
-??? services/        # Lógica de negócio
-??? utils/           # Utilitários (logger, validator)
-??? app.js           # Aplicação principal
-??? setup.js         # Configuração inicial
+|- config/          # Configurações (banco, API)
+|- services/        # Lógica de negócio
+|- utils/           # Utilitários (logger, validator)
+|- app.js           # Aplicação principal
+|- setup.js         # Configuração inicial
 ```
 
 ## Instalação e Execução
@@ -33,7 +33,7 @@ src/
 1. **Clone e instale dependências:**
 ```bash
 git clone https://github.com/josueccim/IntegracaoColaborador
-cd paytrack-integration
+cd IntegracaoColaborador
 npm install
 ```
 
@@ -79,7 +79,7 @@ npm run dev
 STATUS: ? SUCESSO
 ```
 
-## ??? Estrutura do Banco
+## Estrutura do Banco
 
 ### Tabelas
 
@@ -104,8 +104,8 @@ STATUS: ? SUCESSO
 - `created_at`, `updated_at`
 
 ### Relacionamentos
-- Colaborador ? Empresa (N:1)
-- Colaborador ? Centro de Custo (N:1)
+- Colaborador - Empresa (N:1)
+- Colaborador - Centro de Custo (N:1)
 
 ## Configuração
 
@@ -131,14 +131,13 @@ DB_PATH=./database/paytrack.db
 }
 ```
 
-## Testes e Validação
+## Validação
 
 ### Validações Implementadas:
-- ? CPF obrigatório e válido
-- ? Centro de custo obrigatório
-- ? Dados de empresa obrigatórios
-- ? Tratamento de duplicatas
-- ? Integridade referencial
+- CPF obrigatório e válido
+- Centro de custo obrigatório
+- Dados de empresa obrigatórios
+- Tratamento de duplicatas
 
 ### Cenários de Teste:
 - ? Inserção de novos colaboradores
@@ -170,24 +169,16 @@ DB_PATH=./database/paytrack.db
 
 **Performance:**
 - Cache Redis para consultas frequentes
-- Pool de conexões do banco
 - Processamento paralelo
 
 **Monitoramento:**
 - Dashboard web em tempo real
-- Integração com Grafana/Prometheus
-- Alertas via email/Slack
+- Alertas via email
 
 **Funcionalidades:**
-- API REST para consultas
+- API REST para consultas/logs/relatorios
 - Exportação de relatórios (PDF/Excel)
 - Histórico de mudanças
-- Backup automático
-
-**Segurança:**
-- Criptografia de dados sensíveis
-- Logs de auditoria
-- Rate limiting
 
 ## Desenvolvimento
 

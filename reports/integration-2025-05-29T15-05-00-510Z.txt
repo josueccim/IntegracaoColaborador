@@ -1,0 +1,1721 @@
+
+================================================================================
+                    RELATÓRIO DE INTEGRAÇÃO PAYTRACK
+================================================================================
+
+ID do Relatório: integration-2025-05-29T15-05-00-510Z
+Data/Hora: 29/05/2025, 12:05:00
+
+RESUMO EXECUTIVO:
+--------------------------------------------------------------------------------
+� Total de Registros Processados: 362
+� Registros Inseridos: 24
+� Registros Atualizados: 0
+� Registros Ignorados: 338
+� Erros Encontrados: 338
+� Taxa de Sucesso: 6.63%
+� Tempo de Execução: 2.48 segundos
+
+DETALHES DA EXECUÇÃO:
+--------------------------------------------------------------------------------
+Início: 29/05/2025, 12:04:58
+Fim: 29/05/2025, 12:05:00
+
+STATUS: ?? SUCESSO COM ALERTAS
+
+ERROS E INCONSISTÊNCIAS:
+--------------------------------------------------------------------------------
+
+1. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 64794300000
+   Nome: Daniele Oliveira
+   Empresa: Empresa Filial 2
+
+2. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07406693974
+   Nome: Ramon Weiss
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+3. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 49976080093
+   Nome: Rodrigo Formento
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+4. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 98744142005
+   Nome: Julia Lana
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+5. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 36111295004
+   Nome: Agência 1
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+6. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 41946459011
+   Nome: Nova Esperança
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+7. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 73915099066
+   Nome: Agência Interna
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+8. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 89140072002
+   Nome: Luciane Posanske
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+9. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 59132838050
+   Nome: Claudio Wagner
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+10. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 63873843030
+   Nome: Dayane Prim
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+11. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 84698978025
+   Nome: Jasmine Cardoso
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+12. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 45126776070
+   Nome: Edson Gonçalves
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+13. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 08022802000
+   Nome: Mateus Ferrando
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+14. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 26751551010
+   Nome: Agência 3
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+15. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 41439992851
+   Nome: Guilherme Lana
+   Empresa: Empresa BI
+
+16. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 95715311039
+   Nome: Geovani Siqueira
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+17. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 71115638084
+   Nome: Pedro Henrique
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+18. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 92677571056
+   Nome: Andersonn Buzzii
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+19. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 77889773064
+   Nome: Usuário da Apple Não alterar
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+20. CPF invalido: 33333333333
+   CPF: 33333333333
+   Nome: Jessica Brugognolle
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+21. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05590606969
+   Nome: Anderson Buzzii
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+22. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 33736218605
+   Nome: Gustavo Case
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+23. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 61788434536
+   Nome: Lucas ..
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+24. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 78738710374
+   Nome: Fernanda Case
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+25. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 49186781146
+   Nome: Cristine Case
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+26. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 55649859744
+   Nome: Roseli Case
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+27. CPF invalido: 1
+   CPF: 1
+   Nome: Mateuse Ferrando
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+28. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 64745359896
+   Nome: Roberto Alcantara
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+29. CPF invalido: 55555555555
+   CPF: 55555555555
+   Nome: Planilasdha Teste26101
+   Empresa: Empresa BI
+
+30. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 58486170079
+   Nome: Aline NãoMudarASenha Pereira
+   Empresa: Empresa 2
+
+31. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 48266109044
+   Nome: usuario beta beta
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+32. CPF invalido: 05590606967
+   CPF: 05590606967
+   Nome: João Silva
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+33. CPF invalido: 12558487963
+   CPF: 12558487963
+   Nome: Solicitante IMEX
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+34. CPF invalido: 00000000000
+   CPF: 00000000000
+   Nome: Cassio Lindo
+   Empresa: Empresa 5
+
+35. CPF invalido: 21212121212
+   CPF: 21212121212
+   Nome: Agencia 1.1
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+36. CPF invalido: 14114706620
+   CPF: 14114706620
+   Nome: Jose Silva
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+37. CPF invalido: 12121212121
+   CPF: 12121212121
+   Nome: Eli Schramm
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+38. CPF invalido: 22222222222
+   CPF: 22222222222
+   Nome: Anderson Buzzi 1
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+39. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 45251217854
+   Nome: MATEUS HENRIQUE ALVES CORTES
+   Empresa: Empresa Filial 111
+
+40. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 77024322098
+   Nome: Teste PAY-3473
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+41. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07783783066
+   Nome: Task PAY-4201
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+42. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 08379753950
+   Nome: Bruna Laurindo
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+43. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 42628793059
+   Nome: Anderson Buzzi
+   Empresa: Empresa Filial 2
+
+44. CPF invalido: 46472009777
+   CPF: 46472009777
+   Nome: Wagnao Salvador Integração
+   Empresa: Empresa Filial 111
+
+45. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 58134395015
+   Nome: Mateus1 Ferrando
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+46. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 08550724904
+   Nome: Rômulo Fernando
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+47. CPF invalido: 10500000000
+   CPF: 10500000000
+   Nome: Wagner Salvador
+   Empresa: Empresa BI
+
+48. CPF invalido: 88888888888
+   CPF: 88888888888
+   Nome: Ramon Weiss 2
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+49. CPF invalido: 12345678942
+   CPF: 12345678942
+   Nome: Ana Maria Braga 01
+   Empresa: Empresa Filial 111
+
+50. CPF invalido: 09876526789
+   CPF: 09876526789
+   Nome: Juliana Schneider
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+51. CPF invalido: 45321784902
+   CPF: 45321784902
+   Nome: Luana Amaral
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+52. CPF invalido: 45612385293
+   CPF: 45612385293
+   Nome: English User
+   Empresa: Empresa Filial 111
+
+53. CPF invalido: 78797878979
+   CPF: 78797878979
+   Nome: Guilherme Beta
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+54. CPF invalido: 01522363222
+   CPF: 01522363222
+   Nome: Palestrante Beta
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+55. CPF invalido: 04050804848
+   CPF: 04050804848
+   Nome: Solicitante 2
+   Empresa: Empresa Filial 111
+
+56. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06310035843
+   Nome: Lucas .
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+57. CPF invalido: 21412412412
+   CPF: 21412412412
+   Nome: Franco Vegini
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+58. CPF invalido: 21354321035
+   CPF: 21354321035
+   Nome: Manuela Ferretti
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+59. CPF invalido: 59899626595
+   CPF: 59899626595
+   Nome: Teste Beta
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+60. CPF invalido: 89798795959
+   CPF: 89798795959
+   Nome: Teste 2 Beta
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+61. CPF invalido: 13131313131
+   CPF: 13131313131
+   Nome: SDR 1 VENDAS
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+62. CPF invalido: 21235435546
+   CPF: 21235435546
+   Nome: Gabriela Laurindo
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+63. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 12388045606
+   Nome: Heverton Tavares
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+64. CPF invalido: 2323232323
+   CPF: 2323232323
+   Nome: Luciane  Posanske
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+65. CPF invalido: 47563356498
+   CPF: 47563356498
+   Nome: Maria Pata
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+66. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 45836489017
+   Nome: Giovani Silva
+   Empresa: Empresa pagadora
+
+67. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 55323346760
+   Nome: Philip Haertel
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+68. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 60945895054
+   Nome: Roni da Silva
+   Empresa: Empresa Filial 2
+
+69. CPF invalido: 10990609796
+   CPF: 10990609796
+   Nome: Luana Schmidt
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+70. CPF invalido: 123.456.789-96
+   CPF: 123.456.789-96
+   Nome: Laura Silva
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+71. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 39876816080
+   Nome: Maria Joaquina Sbt
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+72. CPF invalido: 00011122233
+   CPF: 00011122233
+   Nome: Teste sem matricula
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+73. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 97848623106
+   Nome: lais telles
+   Empresa: Empresa Filial 2
+
+74. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 20968412327
+   Nome: daniela koch
+   Empresa: Empresa Filial 2
+
+75. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 16079743477
+   Nome: manuela ferretti
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+76. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 22022505573
+   Nome: giovani silva
+   Empresa: Empresa Filial 2
+
+77. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 15369218749
+   Nome: mateus ferrando
+   Empresa: Empresa Filial 2
+
+78. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 76823628391
+   Nome: franco alvarez
+   Empresa: Empresa Filial 2
+
+79. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 64262258513
+   Nome: claudio wagner
+   Empresa: Empresa Filial 2
+
+80. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 50647802228
+   Nome: matheus lima
+   Empresa: Empresa Filial 2
+
+81. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 94427232949
+   Nome: eduardo buchele
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+82. CPF invalido: 1000
+   CPF: 1000
+   Nome: philip.haertel beta
+   Empresa: Empresa Filial 2
+
+83. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06146919748
+   Nome: luana schmidt
+   Empresa: Empresa Filial 2
+
+84. CPF invalido: 12345698712
+   CPF: 12345698712
+   Nome: Luiz Adriano
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+85. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 10990650979
+   Nome: teste 2
+   Empresa: Empresa Filial 111
+
+86. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04717688988
+   Nome: eduardo buchele
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+87. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 12012555977
+   Nome: Mateus Freitas
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+88. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 37814251001
+   Nome: agencia neniaaaz
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+89. CPF invalido: 99999999999
+   CPF: 99999999999
+   Nome: Planilasdha Teste26101
+   Empresa: Empresa BI
+
+90. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 08694380935
+   Nome: Brenda Rodrigues
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+91. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 27762035001
+   Nome: Aprovador para Teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+92. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 78110823068
+   Nome: Colaborador Para Teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+93. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 76628509001
+   Nome: Lindolfo Lindo
+   Empresa: Empresa Filial 2
+
+94. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 68258017080
+   Nome: Linda Lindolfa
+   Empresa: Empresa Filial 2
+
+95. CPF invalido: 12345678932
+   CPF: 12345678932
+   Nome: Lucas Hillesheim
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+96. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 28113452052
+   Nome: Ana Pessoa Teste Seis
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+97. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 26001542058
+   Nome: Giovani da Agencia
+   Empresa: Empresa Filial 111
+
+98. CPF invalido: 87687587565
+   CPF: 87687587565
+   Nome: Gabriel Ronaldo B
+   Empresa: Unidade Felipe Haag
+
+99. CPF invalido: 12214124121
+   CPF: 12214124121
+   Nome: Murilo Lini
+   Empresa: Empresa Filial 2
+
+100. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 16690839001
+   Nome: Mayara Schmidt
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+101. CPF invalido: 15969865423
+   CPF: 15969865423
+   Nome: Luara Gabrielle
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+102. CPF invalido: 59875395154
+   CPF: 59875395154
+   Nome: Maria Maria
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+103. CPF invalido: 96385245698
+   CPF: 96385245698
+   Nome: Luana Maria
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+104. CPF invalido: 21403546432
+   CPF: 21403546432
+   Nome: Manu Ferretti
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+105. CPF invalido: 45684252251
+   CPF: 45684252251
+   Nome: teste souza
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+106. CPF invalido: 65986565665
+   CPF: 65986565665
+   Nome: test termo
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+107. CPF invalido: 99988877766
+   CPF: 99988877766
+   Nome: Ivango Wippel
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+108. CPF invalido: 56989898989
+   CPF: 56989898989
+   Nome: Maria Beta
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+109. CPF invalido: 09909909959
+   CPF: 09909909959
+   Nome: Gabriel Teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+110. CPF invalido: 21584584584
+   CPF: 21584584584
+   Nome: Francisco Silva
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+111. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 74265646905
+   Nome: Bianca Ana Baptista
+   Empresa: teste
+
+112. CPF invalido: 1854121228
+   CPF: 1854121228
+   Nome: Fabio Olivera
+   Empresa: teste
+
+113. CPF invalido: 41589625988
+   CPF: 41589625988
+   Nome: mario teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+114. CPF invalido: 41589625981
+   CPF: 41589625981
+   Nome: super teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+115. CPF invalido: 56897979797
+   CPF: 56897979797
+   Nome: maria fernanda
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+116. CPF invalido: 56737747575
+   CPF: 56737747575
+   Nome: Maria Joaquina
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+117. CPF invalido: 10563097923
+   CPF: 10563097923
+   Nome: Izabela Soares
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+118. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05878028808
+   Nome: Aurimar Antonio Cenedezi
+   Empresa: Unidade de Negócio
+
+119. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 10780616618
+   Nome: BRUNO ANANIAS CAPRONI
+   Empresa: Unidade de Negócio
+
+120. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 17170776847
+   Nome: IRAUÊ CASARIN VIEIRA DA SILVA
+   Empresa: Unidade de Negócio
+
+121. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05489210672
+   Nome: JOSÉ EUSTÁQUIO
+   Empresa: Unidade de Negócio
+
+122. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 08182943612
+   Nome: JULIO CESAR DOS SANTOS
+   Empresa: Unidade de Negócio
+
+123. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07532738612
+   Nome: MARILIA SOUZA BERNARDES
+   Empresa: Unidade de Negócio
+
+124. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 26345508802
+   Nome: NIELSON BARBOSA VAZ
+   Empresa: Unidade de Negócio
+
+125. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 24775525034
+   Nome: PEDRO ZIMMER
+   Empresa: Unidade de Negócio
+
+126. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 11409688666
+   Nome: RODRIGO SILVA
+   Empresa: Unidade de Negócio
+
+127. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 76133516615
+   Nome: Valdetino Apolinário da Silva
+   Empresa: Unidade de Negócio
+
+128. CPF invalido: 10000100010
+   CPF: 10000100010
+   Nome: Lucas Trindade
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+129. CPF invalido: 89498489498
+   CPF: 89498489498
+   Nome: Mateus Freitas
+   Empresa: Empresa Filial 111
+
+130. CPF invalido: 11122233344
+   CPF: 11122233344
+   Nome: JOÃO CARLOS FARIAS DA SILVA
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+131. CPF invalido: 01452631496
+   CPF: 01452631496
+   Nome: Katharina Beta
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+132. CPF invalido: 00088877779
+   CPF: 00088877779
+   Nome: usuario novo
+   Empresa: Empresa Filial 111
+
+133. CPF invalido: 00010000001
+   CPF: 00010000001
+   Nome: Dani Coelho
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+134. CPF invalido: 55555555585
+   CPF: 55555555585
+   Nome: Ka Katharina
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+135. CPF invalido: 01256321490
+   CPF: 01256321490
+   Nome: teste teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+136. CPF invalido: 02587413356
+   CPF: 02587413356
+   Nome: User Teste Add
+   Empresa: Empresa Filial 111
+
+137. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 35156358071
+   Nome: Blener Vbeta
+   Empresa: Empresa Filial 111
+
+138. CPF invalido: 11200000000
+   CPF: 11200000000
+   Nome: Sara Teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+139. CPF invalido: 10987654300
+   CPF: 10987654300
+   Nome: Trezentos Espartanos de Roma
+   Empresa: Unidade Chilena
+
+140. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 60781923026
+   Nome: Usuario Novo
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+141. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 21706954000
+   Nome: Usuario importado
+   Empresa: Empresa Filial 111
+
+142. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 14818227056
+   Nome: Usuario importado 2
+   Empresa: Empresa Filial 111
+
+143. CPF invalido: 09990099978
+   CPF: 09990099978
+   Nome: Pedro Zwang
+   Empresa: Unidade de Negócio
+
+144. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06112204908
+   Nome: Cibeli Oliveira
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+145. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 98232846011
+   Nome: manoel joão
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+146. CPF invalido: 32165498730
+   CPF: 32165498730
+   Nome: Blener Beta Teste
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+147. CPF invalido: 15975346454
+   CPF: 15975346454
+   Nome: Novo Usuario
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+148. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 33004765004
+   Nome: Jheniffer Buzzi
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+149. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 76168903003
+   Nome: Florzinha Menina super poderosa
+   Empresa: Empresa Filial 2
+
+150. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 28387779040
+   Nome: Cosmo Padrinho Magico
+   Empresa: Empresa Filial 2
+
+151. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 94202979001
+   Nome: Wanda Madrinha Magica
+   Empresa: Empresa Filial 2
+
+152. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 95503132041
+   Nome: Lindinha Menina Super poderosa
+   Empresa: Empresa Filial 2
+
+153. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 15091743707
+   Nome: Docinho Menina Super Poderosa
+   Empresa: Empresa Filial 2
+
+154. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 09093474090
+   Nome: Professor Antonio
+   Empresa: Empresa Filial 2
+
+155. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 68151794003
+   Nome: Senhorita Belo
+   Empresa: Empresa Filial 2
+
+156. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 12343297002
+   Nome: Usuario importado 2
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+157. CPF invalido: 12343297003
+   CPF: 12343297003
+   Nome: Usuario importado 3
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+158. CPF invalido: 09645875640
+   CPF: 09645875640
+   Nome: Michel Varella
+   Empresa: Varella Organizações LTDA
+
+159. CPF invalido: 07406693978
+   CPF: 07406693978
+   Nome: Ramon F Weiss
+   Empresa: Empresa Filial 111
+
+160. CPF invalido: 07405582899
+   CPF: 07405582899
+   Nome: Colab 007
+   Empresa: Empresa Filial 111
+
+161. CPF invalido: 07405582888
+   CPF: 07405582888
+   Nome: Colab 008
+   Empresa: Empresa Filial 111
+
+162. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06825451634
+   Nome: Ronaldo TESTE
+   Empresa: Empresa Filial 2
+
+163. CPF invalido: 07406693988
+   CPF: 07406693988
+   Nome: Ramon Weiss
+   Empresa: Empresa Filial 111
+
+164. CPF invalido: 12
+   CPF: 12
+   Nome: Varella W
+   Empresa: Varella Organizações LTDA
+
+165. CPF invalido: 98765489991
+   CPF: 98765489991
+   Nome: Juãozinho Pereira
+   Empresa: Unidade de Negócio
+
+166. CPF invalido: 96385214745
+   CPF: 96385214745
+   Nome: Colaboradora Oito
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+167. CPF invalido: 78457854778
+   CPF: 78457854778
+   Nome: endress Hauser
+   Empresa: Teste
+
+168. CPF invalido: 98566744155
+   CPF: 98566744155
+   Nome: Ru Car
+   Empresa: EndressTeste
+
+169. CPF invalido: 54454545454
+   CPF: 54454545454
+   Nome: ruannn fdfsdf
+   Empresa: Unidade Chilena
+
+170. CPF invalido: 33366655599
+   CPF: 33366655599
+   Nome: Matheus Grabner dos Santos
+   Empresa: Empresa 2
+
+171. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 08436423941
+   Nome: Ana Luiza Taufenbach Mueller
+   Empresa: Empresa 5
+
+172. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05326564904
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+173. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 57367604953
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+174. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 41371893829
+   Nome: N/A 11.081.096/0003-48
+   Empresa: Empresa 5
+
+175. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00492204977
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+176. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07041327965
+   Nome: alainpierrebeckert 81.315.426/0001-36
+   Empresa: Empresa 5
+
+177. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 19920122882
+   Nome: N/A 81.315.426/0028-56
+   Empresa: Empresa 5
+
+178. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 59797061191
+   Nome: N/A 11.350.362/0003-90
+   Empresa: Empresa 5
+
+179. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00417477988
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+180. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 81700369920
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+181. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 11418077933
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+182. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 02810073902
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+183. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 85636258100
+   Nome: kau teste teste
+   Empresa: Empresa 5
+
+184. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 89078713968
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+185. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 09693951913
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+186. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 99432986187
+   Nome: claudetedefrancafeitosa 11.350.362/0001-29
+   Empresa: Empresa 5
+
+187. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 72029412953
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+188. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01902208560
+   Nome: N/A 11.350.362/0006-33
+   Empresa: Empresa 5
+
+189. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01015025919
+   Nome: cleonice 81.315.426/0001-36
+   Empresa: Empresa 5
+
+190. CPF invalido: 123456
+   CPF: 123456
+   Nome: hhjh 09.650.229/0002-27
+   Empresa: Empresa 5
+
+191. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00114167346
+   Nome: danielrodriguesdesousa 10.701.174/0001-35
+   Empresa: Empresa 5
+
+192. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 21291249842
+   Nome: fff 10.701.174/0002-16
+   Empresa: Empresa 5
+
+193. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 82111855987
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+194. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04715344980
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+195. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 02411497970
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+196. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 02661171983
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+197. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 71631550420
+   Nome: N/A 11.350.362/0004-71
+   Empresa: Empresa 5
+
+198. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 53690869900
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+199. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 87289423100
+   Nome: Usuário Gestor 11.350.362/0003-90
+   Empresa: Empresa 5
+
+200. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03771446902
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+201. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 63335077920
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+202. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00497627965
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+203. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05581965943
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+204. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04224579901
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+205. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03396915909
+   Nome: N/A 81.315.426/0031-51
+   Empresa: Empresa 5
+
+206. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 72029366900
+   Nome: N/A 81.315.426/0004-89
+   Empresa: Empresa 5
+
+207. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 02961062918
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+208. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04602472478
+   Nome: N/A 11.350.362/0002-00
+   Empresa: Empresa 5
+
+209. CPF invalido: 00000000002
+   CPF: 00000000002
+   Nome: felipe 09.650.229/0005-70
+   Empresa: Empresa 5
+
+210. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06755253901
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+211. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00310548039
+   Nome: Fernando Renato
+   Empresa: Empresa 5
+
+212. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00580387950
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+213. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 30269113304
+   Nome: chico 09.650.229/0002-27
+   Empresa: Empresa 5
+
+214. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01294459678
+   Nome: Francisco 10.941.252/0001-79
+   Empresa: Empresa 5
+
+215. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 15437230982
+   Nome: colaborador paytrackio 81.315.426/0001-36
+   Empresa: Empresa 5
+
+216. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05917207950
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+217. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 10495506419
+   Nome: geovanediegodelimalopes 11.350.362/0005-52
+   Empresa: Empresa 5
+
+218. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01010857967
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+219. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01883583152
+   Nome: 11 10.701.174/0001-35
+   Empresa: Empresa 5
+
+220. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06859853859
+   Nome: Gabriel Teste de teste Boeing de teste Bertholdo
+   Empresa: Empresa 5
+
+221. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03314980736
+   Nome: gisl 09.650.229/0005-70
+   Empresa: Empresa 5
+
+222. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00453558941
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+223. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 31022698850
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+224. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07471401974
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+225. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04434733907
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+226. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 72020059991
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+227. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 96988584900
+   Nome: N/A 81.315.426/0009-93
+   Empresa: Empresa 5
+
+228. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 93840012520
+   Nome: jeanccsoares 10.941.252/0002-50
+   Empresa: Empresa 5
+
+229. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04234218910
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+230. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07862959965
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+231. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 80913130982
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+232. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05148409940
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+233. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00669335959
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+234. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 11248035801
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+235. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00341106909
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+236. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 28094438827
+   Nome: N/A 11.081.096/0001-86
+   Empresa: Empresa 5
+
+237. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01024106900
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+238. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01825702829
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+239. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 82112150987
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+240. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04172403921
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+241. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00503922986
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+242. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 05926870909
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+243. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 02051457603
+   Nome: N/A 10.941.252/0003-30
+   Empresa: Empresa 5
+
+244. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03391855975
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+245. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03105078479
+   Nome: hjgdntydjhdntgduyh 11.350.362/0002-00
+   Empresa: Empresa 5
+
+246. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07307218925
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+247. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07214625962
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+248. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03147007901
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+249. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06674093947
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+250. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 36474267844
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+251. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 80218946015
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+252. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 55168337953
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+253. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 65150473987
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+254. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00488521980
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+255. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 66794994020
+   Nome: teste 10.144.595/0001-02
+   Empresa: Empresa 5
+
+256. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04829451920
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+257. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 98869612953
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+258. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 35169615892
+   Nome: aaaaa bbbbb
+   Empresa: Empresa 5
+
+259. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01703896777
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+260. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 06569541919
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+261. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07408274995
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+262. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 65499778949
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+263. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00340590912
+   Nome: N/A 81.315.426/0027-75
+   Empresa: Empresa 5
+
+264. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 30461102862
+   Nome: kkk 10.701.174/0002-16
+   Empresa: Empresa 5
+
+265. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 87161087953
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+266. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01427778116
+   Nome: rilmadasilvasantosalves 11.350.362/0003-90
+   Empresa: Empresa 5
+
+267. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03800622912
+   Nome: robson 10.144.595/0002-93
+   Empresa: Empresa 5
+
+268. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07966039951
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+269. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04772831959
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+270. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 07743431924
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+271. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 09525090833
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+272. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01037939921
+   Nome: dd 10.384.095/0003-00
+   Empresa: Empresa 5
+
+273. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04275612990
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+274. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04402732930
+   Nome: N/A 81.315.426/0028-56
+   Empresa: Empresa 5
+
+275. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 04676780907
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+276. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 26939506861
+   Nome: 10.144.595/0002-93 10.144.595/0002-93
+   Empresa: Empresa 5
+
+277. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 00513051945
+   Nome: N/A 81.315.426/0009-93
+   Empresa: Empresa 5
+
+278. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 63803380987
+   Nome: N/A 81.315.426/0004-89
+   Empresa: Empresa 5
+
+279. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 58545891920
+   Nome: N/A 81.315.426/0014-50
+   Empresa: Empresa 5
+
+280. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 10054925908
+   Nome: N/A 81.315.426/0001-36
+   Empresa: Empresa 5
+
+281. CPF invalido: 05326564000
+   CPF: 05326564000
+   Nome: Adelita Edna Pereira do Valle
+   Empresa: Empresa Filial 111
+
+282. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 64664126522
+   Nome: CASSANDRA SILVA
+   Empresa: Empresa Filial 2
+
+283. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 26657698402
+   Nome: RENATO SOUSA
+   Empresa: Empresa Filial 2
+
+284. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 12668734908
+   Nome: Pedro Garcia - TESTE
+   Empresa: Empresa Filial 2
+
+285. CPF invalido: 10058745698
+   CPF: 10058745698
+   Nome: Ana Júlia Cardoso
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+286. CPF invalido: 02122545895
+   CPF: 02122545895
+   Nome: gustavo ghuanm
+   Empresa: Unidade Argentina
+
+287. CPF invalido: 22222211111
+   CPF: 22222211111
+   Nome: Agencia - Teste
+   Empresa: Teste
+
+288. CPF invalido: 54564564564
+   CPF: 54564564564
+   Nome: testeronaldo testeronaldo
+   Empresa: Empresa Filial 111
+
+289. CPF invalido: 15456456465
+   CPF: 15456456465
+   Nome: testego testego
+   Empresa: Empresa Filial 111
+
+290. CPF invalido: 66666666666
+   CPF: 66666666666
+   Nome: ggg ggg
+   Empresa: Empresa Filial 111
+
+291. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 10573245665
+   Nome: Scar Bueno Silva
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+292. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 08286285999
+   Nome: Teste Anonimizar
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+293. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 14693949604
+   Nome: gabriel batista
+   Empresa: Varella Organizações LTDA
+
+294. CPF invalido: 00000000021
+   CPF: 00000000021
+   Nome: Jean Möller Möller
+   Empresa: gthfhbn
+
+295. CPF invalido: 01010101010
+   CPF: 01010101010
+   Nome: Jean Carlos Möller
+   Empresa: teste
+
+296. CPF invalido: 12312312312
+   CPF: 12312312312
+   Nome: Moller jc
+   Empresa: Teste
+
+297. CPF invalido: 78941651160
+   CPF: 78941651160
+   Nome: Colab 28
+   Empresa: Empresa Filial 2
+
+298. CPF invalido: 51659846511
+   CPF: 51659846511
+   Nome: Colab 29
+   Empresa: Empresa Filial 2
+
+299. CPF invalido: 65120665150
+   CPF: 65120665150
+   Nome: Colab 30
+   Empresa: Empresa Filial 2
+
+300. CPF invalido: 10031654610
+   CPF: 10031654610
+   Nome: Colab 31
+   Empresa: Empresa Filial 2
+
+301. CPF invalido: 15000561651
+   CPF: 15000561651
+   Nome: Colab 32
+   Empresa: Empresa Filial 2
+
+302. CPF invalido: 32003322560
+   CPF: 32003322560
+   Nome: Colab 33
+   Empresa: Empresa Filial 2
+
+303. CPF invalido: 08436423942
+   CPF: 08436423942
+   Nome: Ana Luiza Taufenbach Mueller
+   Empresa: Empresa 5
+
+304. CPF invalido: 00111223328
+   CPF: 00111223328
+   Nome: teste moller
+   Empresa: Empresa 2
+
+305. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 85055892030
+   Nome: João Joao
+   Empresa: Empresa Filial 2
+
+306. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 10336453973
+   Nome: Barbara Stychnicki
+   Empresa: Empresa Filial 111
+
+307. CPF invalido: 43289748932
+   CPF: 43289748932
+   Nome: Matheus Grabner dos Santos
+   Empresa: Teste
+
+308. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 90470838060
+   Nome: Jheniffer Claudino
+   Empresa: MY AGENCIA DE PROPAGANDA LTDA
+
+309. CPF invalido: 98756423056
+   CPF: 98756423056
+   Nome: Teste Um
+   Empresa: Empresa 2
+
+310. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 24950645900
+   Nome: Thealmo E Wirth
+   Empresa: TRUCKS COMERCIO
+
+311. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 03016071924
+   Nome: Juliana Pansera
+   Empresa: Empresa 5
+
+312. CPF invalido: 10572158798
+   CPF: 10572158798
+   Nome: scarlet buenooo
+   Empresa: Empresa 2
+
+313. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 28975134032
+   Nome: Luquinhas 1
+   Empresa: Empresa Filial 111
+
+314. CPF invalido: 31241241241
+   CPF: 31241241241
+   Nome: Luquinhas 2
+   Empresa: Empresa Filial 111
+
+315. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 34781698018
+   Nome: Tamires Radavelli
+   Empresa: Teste
+
+316. CPF invalido: 10928762789
+   CPF: 10928762789
+   Nome: Amanda Silva
+   Empresa: Empresa 2
+
+317. CPF invalido: 23456789086
+   CPF: 23456789086
+   Nome: Geovane Soares
+   Empresa: Empresa 2
+
+318. CPF invalido: 25988744152
+   CPF: 25988744152
+   Nome: Steffany Martins
+   Empresa: Empresa Filial 2
+
+319. CPF invalido: 89754621354
+   CPF: 89754621354
+   Nome: Central de ajuda
+   Empresa: teste
+
+320. CPF invalido: 77766633366
+   CPF: 77766633366
+   Nome: Mateus Brito
+   Empresa: Empresa Filial 2
+
+321. CPF invalido: 41526357725
+   CPF: 41526357725
+   Nome: cadastro de cliente
+   Empresa: Empresa Filial 2
+
+322. CPF invalido: 74185296356
+   CPF: 74185296356
+   Nome: James salada de frutra
+   Empresa: Empresa 2
+
+323. CPF invalido: 10101010101
+   CPF: 10101010101
+   Nome: Planilasdha Teste26101
+   Empresa: Empresa BI
+
+324. CPF invalido: 11114151027
+   CPF: 11114151027
+   Nome: usuario importação 12
+   Empresa: Empresa Filial 2
+
+325. CPF invalido: 11114151026
+   CPF: 11114151026
+   Nome: usuario importação 13
+   Empresa: Empresa Filial 2
+
+326. CPF invalido: 11114151028
+   CPF: 11114151028
+   Nome: usuario importação 16
+   Empresa: Empresa Filial 2
+
+327. CPF invalido: 78887777777
+   CPF: 78887777777
+   Nome: Gustavo Wippel
+   Empresa: Empresa Filial 111
+
+328. CPF invalido: 77994444494
+   CPF: 77994444494
+   Nome: Ruan Scherer
+   Empresa: Empresa Filial 111
+
+329. CPF invalido: 15975611468
+   CPF: 15975611468
+   Nome: Giovani Oliveira
+   Empresa: Empresa Filial 111
+
+330. CPF invalido: 05214789653
+   CPF: 05214789653
+   Nome: Anna Paula Hostert
+   Empresa: Varella Organizações LTDA
+
+331. CPF invalido: 11122233354
+   CPF: 11122233354
+   Nome: Kauê Endler
+   Empresa: Empresa 5
+
+332. CPF invalido: 10000000000
+   CPF: 10000000000
+   Nome: matheus Vilbert
+   Empresa: Empresa 5
+
+333. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 01234567890
+   Nome: Rafael Souza
+   Empresa: Empresa Filial 2
+
+334. Colaborador sem centro de custo nao pode ser cadastrado
+   CPF: 13162159032
+   Nome: Usuário beta
+   Empresa: Empresa 2
+
+335. CPF invalido: 54646546545
+   CPF: 54646546545
+   Nome: 123teste 123teste
+   Empresa: Empresa 2
+
+336. CPF invalido: 87489789789
+   CPF: 87489789789
+   Nome: Ronaldo Boeing
+   Empresa: Empresa BI
+
+337. CPF invalido: 87897354455
+   CPF: 87897354455
+   Nome: Ronaldo Boeing
+   Empresa: Empresa BI
+
+338. CPF invalido: 98787354545
+   CPF: 98787354545
+   Nome: Ronaldo Boeing
+   Empresa: Empresa BI
+
+================================================================================
+Relatório gerado automaticamente pelo Sistema de Integração Paytrack
+================================================================================

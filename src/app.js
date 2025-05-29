@@ -55,7 +55,7 @@ const app = new App();
 process.on('SIGINT', () => app.shutdown());
 process.on('SIGTERM', () => app.shutdown());
 
-// Inicializa aplica��o
+// Inicializa aplicação
 app.init().catch(error => {
     logger.error('Erro fatal:', error);
     process.exit(1);
