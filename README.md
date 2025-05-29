@@ -15,11 +15,11 @@ Sistema automatizado para integração de dados de colaboradores via API, desenv
 
 ```
 src/
-|- config/          # Configurações (banco, API)
-|- services/        # Lógica de negócio
-|- utils/           # Utilitários (logger, validator)
-|- app.js           # Aplicação principal
-|- setup.js         # Configuração inicial
+├── config/          # Configurações (banco, API)
+├── services/        # Lógica de negócio
+├── utils/           # Utilitários (logger, validator)
+├── jobs/            # Agendamentos (cron)
+└── app.js          # Aplicação principal
 ```
 
 ## Instalação e Execução
@@ -76,10 +76,12 @@ npm run dev
 * Taxa de Sucesso: 98.67%
 * Tempo de Execução: 5.43 segundos
 
-STATUS: ? SUCESSO
+STATUS: ✅ SUCESSO
 ```
 
 ## Estrutura do Banco
+### Diagrama
+<img src="./img/er_diagrama.jpg" alt="Imagem Diagrama ER" />
 
 ### Tabelas
 
@@ -134,18 +136,18 @@ DB_PATH=./database/paytrack.db
 ## Validação
 
 ### Validações Implementadas:
-- CPF obrigatório e válido
-- Centro de custo obrigatório
-- Dados de empresa obrigatórios
-- Tratamento de duplicatas
+- ✅ CPF obrigatório e válido
+- ✅ Centro de custo obrigatório
+- ✅ Dados de empresa obrigatórios
+- ✅ Tratamento de duplicatas
 
 ### Cenários de Teste:
-- ? Inserção de novos colaboradores
-- ? Atualização de colaboradores existentes
-- ? Mudança de empresa/centro de custo
-- ? Tratamento de dados inválidos
-- ? Falha de conectividade com API
-- ? Recuperação de erros
+- ✅ Inserção de novos colaboradores
+- ✅ Atualização de colaboradores existentes
+- ✅ Mudança de empresa/centro de custo
+- ✅ Tratamento de dados inválidos
+- ✅ Falha de conectividade com API
+- ✅ Recuperação de erros
 
 ## Tratamento de Erros
 
@@ -181,20 +183,14 @@ DB_PATH=./database/paytrack.db
 - Histórico de mudanças
 
 ## Desenvolvimento
-
+- Teste Unitários e de integração
+  
 ### Scripts Disponíveis:
 ```bash
 npm start      # Execução em produção
 npm run dev    # Desenvolvimento com hot-reload
 npm run setup  # Configuração inicial
 ```
-
-### Estrutura de Commits:
-- `feat:` Nova funcionalidade
-- `fix:` Correção de bug
-- `docs:` Documentaçãoo
-- `refactor:` Refatoração
-- `test:` Testes
 
 ## Suporte
 
@@ -203,20 +199,6 @@ Para dúvidas ou problemas:
 2. Consulte os relatórios em `reports/`
 3. Analise a conectividade com a API
 4. Verifique permissões de arquivo/diretório
-
-## Checklist de Entrega
-
-- [x] Consumo da API com autenticação
-- [x] Persistência com relacionamentos
-- [x] Validação de CPF e regras de negócio
-- [x] Upsert inteligente (insert/update)
-- [x] Automação via cron (15 minutos)
-- [x] Relatórios detalhados
-- [x] Logging estruturado
-- [x] Tratamento robusto de erros
-- [x] Documentação completa
-- [x] Código limpo e organizado
-- [x] Melhorias propostas
 
 ---
 
