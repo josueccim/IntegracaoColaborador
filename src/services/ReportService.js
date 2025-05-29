@@ -28,13 +28,13 @@ class ReportService {
         const reportId = `integration-${timestamp}`;
 
         try {
-            // 1. Relat�rio JSON estruturado
+            // 1. Relatorio JSON estruturado
             await this.generateJSONReport(reportId, reportData);
             
-            // 2. Relat�rio humanamente leg�vel
+            // 2. Relatório TXT
             await this.generateTextReport(reportId, reportData);
             
-            // 3. Log do relat�rio
+            // 3. Log do relatório
             this.logReport(reportData);
             
             logger.info(`Relatórios gerados: ${reportId}`);
