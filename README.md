@@ -18,7 +18,6 @@ src/
 ├── config/          # Configurações (banco, API)
 ├── services/        # Lógica de negócio
 ├── utils/           # Utilitários (logger, validator)
-├── jobs/            # Agendamentos (cron)
 └── app.js          # Aplicação principal
 ```
 
