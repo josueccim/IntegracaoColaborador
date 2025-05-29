@@ -11,6 +11,55 @@ Sistema automatizado para integração de dados de colaboradores via API, desenv
 - **Validação Robusta**: CPF e regras de negócio
 - **Tratamento de Erros**: Retry automático e logging completo
 
+## Fluxo
+
+```mermaid
+flowchart TD
+    A[ Iniciar Aplicação] --> B[📅 Cron Job - A cada 15min]
+    B --> C[ Consumir API de Colaboradores]
+    
+    C --> D{🔍 API Respondeu?}
+    D -->|❌ Não| E[⏰ Retry - Máx 3x]
+    E --> D
+    D -->|✅ Sim| F[📊 Processar Dados JSON]
+    
+    F --> G[🔄 Para cada Colaborador]
+    G --> H{✅ CPF Válido?}
+    H -->|❌ Não| I[⚠️ Pular - Log Erro]
+    H -->|✅ Sim| J{🏢 Centro Custo?}
+    J -->|❌ Não| I
+    J -->|✅ Sim| K[🏢 Upsert Empresa]
+    
+    K --> L[🎯 Upsert Centro Custo]
+    L --> M{👤 Colaborador Existe?}
+    M -->|❌ Não| N[➕ Inserir Novo]
+    M -->|✅ Sim| O[🔄 Atualizar Existente]
+    
+    N --> P[📈 Contador: +1 Inserido]
+    O --> Q[📈 Contador: +1 Atualizado]
+    
+    P --> R{🔁 Mais Colaboradores?}
+    Q --> R
+    I --> R
+    
+    R -->|✅ Sim| G
+    R -->|❌ Não| S[📋 Gerar Relatório]
+    
+    S --> T[💾 Salvar JSON]
+    T --> U[📄 Salvar TXT]
+    U --> V[📝 Log Resumo]
+    V --> W[⏰ Aguardar Próximo Ciclo]
+    W --> B
+    
+    style A fill:#f6e5de
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style S fill:#fff3e0
+    style T fill:#fff3e0
+    style U fill:#fff3e0
+    style V fill:#fff3e0
+
+```
 ## Arquitetura
 
 ```
