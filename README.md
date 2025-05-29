@@ -51,8 +51,8 @@ flowchart TD
     V --> W[⏰ Aguardar Próximo Ciclo]
     W --> B
     
-    style A fill:#f6e5de
-    style B fill:#f3e5f5
+    style A fill:#e8f5e8
+    style B fill:#e8f5e8
     style C fill:#e8f5e8
     style S fill:#fff3e0
     style T fill:#fff3e0
@@ -69,64 +69,6 @@ src/
 ├── utils/           # Utilitários (logger, validator)
 └── app.js          # Aplicação principal
 ```
-
-## Instalação e Execução
-
-### Pré-requisitos
-- Node.js >= 16.0.0
-- npm >= 8.0.0
-
-### Setup Inicial
-
-1. **Clone e instale dependências:**
-```bash
-git clone https://github.com/josueccim/IntegracaoColaborador
-cd IntegracaoColaborador
-npm install
-```
-
-2. **Configure o ambiente:**
-```bash
-npm run setup
-```
-
-3. **Execute a aplicação:**
-```bash
-# Producao
-npm start
-
-# Desenvolvimento (com nodemon)
-npm run dev
-```
-
-## Monitoramento
-
-### Logs
-- `logs/combined.log` - Log geral da aplicação
-- `logs/error.log` - Apenas erros
-- Console - Output em tempo real
-
-### Relatórios
-- `reports/integration-[timestamp].json` - Dados estruturados
-- `reports/integration-[timestamp].txt` - Relatório visual
-
-### Exemplo de Relatório:
-```
-================================================================================
-                    RELATÓRIO DE INTEGRAÇÃO PAYTRACK
-================================================================================
-
-* Total de Registros Processados: 150
-* Registros Inseridos: 25
-* Registros Atualizados: 120
-* Registros Ignorados: 3
-* Erros Encontrados: 2
-* Taxa de Sucesso: 98.67%
-* Tempo de Execução: 5.43 segundos
-
-STATUS: ✅ SUCESSO
-```
-
 ## Estrutura do Banco
 ### Diagrama
 <img src="./img/er_diagrama.jpg" alt="Imagem Diagrama ER" />
@@ -156,6 +98,35 @@ STATUS: ✅ SUCESSO
 ### Relacionamentos
 - Colaborador - Empresa (N:1)
 - Colaborador - Centro de Custo (N:1)
+
+## Instalação e Execução
+
+### Pré-requisitos
+- Node.js >= 16.0.0
+- npm >= 8.0.0
+
+### Setup Inicial
+
+1. **Clone e instale dependências:**
+```bash
+git clone https://github.com/josueccim/IntegracaoColaborador
+cd IntegracaoColaborador
+npm install
+```
+
+2. **Configure o ambiente:**
+```bash
+npm run setup
+```
+
+3. **Execute a aplicação:**
+```bash
+# Producao
+npm start
+
+# Desenvolvimento (com nodemon)
+npm run dev
+```
 
 ## Configuração
 
