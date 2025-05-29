@@ -5,10 +5,10 @@ Sistema automatizado para integração de dados de colaboradores via API, desenv
 ## Funcionalidades
 
 - **Consumo de API**: Integração automática com API de colaboradores
-- **Persist�ncia Inteligente**: Upsert de dados com relacionamentos
-- **Automa��o**: Execução a cada 15 minutos via cron job
-- **Relat�rios Detalhados**: Logs estruturados e relatórios sintéticos
-- **Valida��o Robusta**: CPF e regras de negócio
+- **Persistência Inteligente**: Upsert de dados com relacionamentos
+- **Automação**: Execução a cada 15 minutos via cron job
+- **Relatórios Detalhados**: Logs estruturados e relatórios sintéticos
+- **Validação Robusta**: CPF e regras de negócio
 - **Tratamento de Erros**: Retry automático e logging completo
 
 ## Arquitetura
@@ -51,7 +51,7 @@ npm start
 npm run dev
 ```
 
-## ?? Monitoramento
+## Monitoramento
 
 ### Logs
 - `logs/combined.log` - Log geral da aplicação
@@ -68,13 +68,13 @@ npm run dev
                     RELATÓRIO DE INTEGRAÇÃO PAYTRACK
 ================================================================================
 
-� Total de Registros Processados: 150
-� Registros Inseridos: 25
-� Registros Atualizados: 120
-� Registros Ignorados: 3
-� Erros Encontrados: 2
-� Taxa de Sucesso: 98.67%
-� Tempo de Execução: 5.43 segundos
+* Total de Registros Processados: 150
+* Registros Inseridos: 25
+* Registros Atualizados: 120
+* Registros Ignorados: 3
+* Erros Encontrados: 2
+* Taxa de Sucesso: 98.67%
+* Tempo de Execução: 5.43 segundos
 
 STATUS: ? SUCESSO
 ```
@@ -107,7 +107,7 @@ STATUS: ? SUCESSO
 - Colaborador ? Empresa (N:1)
 - Colaborador ? Centro de Custo (N:1)
 
-## ?? Configuração
+## Configuração
 
 ### Variáveis de Ambiente
 ```bash
@@ -131,7 +131,7 @@ DB_PATH=./database/paytrack.db
 }
 ```
 
-## ?? Testes e Validação
+## Testes e Validação
 
 ### Validações Implementadas:
 - ? CPF obrigatório e válido
@@ -148,7 +148,7 @@ DB_PATH=./database/paytrack.db
 - ? Falha de conectividade com API
 - ? Recuperação de erros
 
-## ?? Tratamento de Erros
+## Tratamento de Erros
 
 ### Estratégias Implementadas:
 - **Retry Automático**: 3 tentativas com delay
@@ -157,14 +157,14 @@ DB_PATH=./database/paytrack.db
 - **Graceful Shutdown**: Encerramento limpo
 - **Validação de Dados**: Pré-processamento
 
-### C�digos de Erro Comuns:
+### Códigos de Erro Comuns:
 - `HTTP 401`: Problema de autenticação
 - `HTTP 500`: Erro no servidor da API
 - `TIMEOUT`: Conexão lenta/instável
 - `CPF_INVALID`: CPF inválido ou ausente
 - `NO_COST_CENTER`: Centro de custo obrigatório
 
-## ?? Melhorias Futuras
+## Melhorias Futuras
 
 ### Propostas de Extensão:
 
@@ -189,7 +189,7 @@ DB_PATH=./database/paytrack.db
 - Logs de auditoria
 - Rate limiting
 
-## ??? Desenvolvimento
+## Desenvolvimento
 
 ### Scripts Disponíveis:
 ```bash
@@ -205,7 +205,7 @@ npm run setup  # Configuração inicial
 - `refactor:` Refatoração
 - `test:` Testes
 
-## ?? Suporte
+## Suporte
 
 Para dúvidas ou problemas:
 1. Verifique os logs em `logs/`
@@ -213,7 +213,7 @@ Para dúvidas ou problemas:
 3. Analise a conectividade com a API
 4. Verifique permissões de arquivo/diretório
 
-## ?? Checklist de Entrega
+## Checklist de Entrega
 
 - [x] Consumo da API com autenticação
 - [x] Persistência com relacionamentos
