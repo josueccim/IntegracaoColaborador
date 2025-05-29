@@ -27,7 +27,7 @@ class IntegrationService {
         };
 
         try {
-            logger.info('Iniciando processo de integracao');
+            logger.info('Iniciando processo de integração');
 
             // 1. Buscar dados da API
             const colaboradores = await this.apiService.getColaboradores();
@@ -44,8 +44,8 @@ class IntegrationService {
                         colaborador: colaborador,
                         error: error.message
                     });
-                    //logger.error(`Erro ao processar colaborador ${colaborador.cpf}:`, error);
-					logger.error(`Erro ao processar colaborador ${colaborador.cpf}:`, error.message);
+                    logger.error(`Erro ao processar colaborador ${colaborador.cpf}:`, error);
+					//logger.error(`Erro ao processar colaborador ${colaborador.cpf}:`, error.message);
                 }
             }
 
