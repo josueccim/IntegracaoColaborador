@@ -30,6 +30,4 @@ function validateCPF(cpf) {
     return true;
 }
 
-module.exports = {
-	 validateCPF
-};
+export default validateCPF;

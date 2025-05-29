@@ -1,5 +1,11 @@
-const winston = require('winston');
-const path = require('path');
+import winston from 'winston';
+import path from 'path';
+import { fileURLToPath } from 'url'; // Para obter o caminho do arquivo atual
+import { dirname } from 'path'; 
+
+//__filename e __dirname para ES Modules:
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const logger = winston.createLogger({
     level: 'info',
@@ -20,7 +26,7 @@ const logger = winston.createLogger({
 
 	transports: [
         new winston.transports.File({ 
-            filename: path.join(__dirname, '../../logs/error.log'), 
+            filename: path.join(__dirname, '../../logs/error.log'),
             level: 'error' 
         }),
 
@@ -37,4 +43,5 @@ const logger = winston.createLogger({
     ]
 });
 
-module.exports = logger;
+//module.exports = logger;
+export default logger;

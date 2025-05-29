@@ -1,5 +1,14 @@
-const sqlite3 = require('sqlite3').verbose();
-const path = require('path');
+import sqlite3_module from 'sqlite3';
+const sqlite3 = sqlite3_module.verbose();
+
+import path from 'path';
+import { fileURLToPath } from 'url'; // Para obter o caminho do arquivo atual
+import { dirname } from 'path'; 
+
+//__filename e __dirname para ES Modules:
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 
 class DatabaseConfig {
     constructor() {
@@ -120,4 +129,4 @@ class DatabaseConfig {
 
 }
 
-module.exports = DatabaseConfig;
+export default DatabaseConfig;

@@ -1,5 +1,5 @@
-const DatabaseConfig = require('../config/database');
-const logger = require('../utils/logger');
+import DatabaseConfig from '../config/database.js';
+import logger from '../utils/logger.js';
 
 class DatabaseService {
 
@@ -128,4 +128,4 @@ class DatabaseService {
     }
 }
 
-module.exports = DatabaseService;
+export default  DatabaseService;

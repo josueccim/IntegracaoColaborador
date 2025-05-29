@@ -1,8 +1,8 @@
-const ApiService = require('./ApiService');
-const DatabaseService = require('./DatabaseService');
-const ReportService = require('./ReportService');
-const logger = require('../utils/logger');
-const { validateCPF } = require('../utils/validator');
+import ApiService from './ApiService.js';
+import DatabaseService from './DatabaseService.js';
+import ReportService from './ReportService.js';
+import logger from '../utils/logger.js';
+import validateCPF from '../utils/validator.js';
 
 class IntegrationService {
     constructor() {
@@ -119,4 +119,4 @@ class IntegrationService {
     }
 }
 
-module.exports = IntegrationService;
+export default IntegrationService;

@@ -1,6 +1,6 @@
-const IntegrationService = require('./services/IntegrationService');
-const cron = require('node-cron');
-const logger = require('./utils/logger');
+import IntegrationService from './services/IntegrationService.js';
+import cron from 'node-cron';
+import logger from './utils/logger.js'
 
 class App {
     constructor() {
@@ -61,4 +61,4 @@ app.init().catch(error => {
     process.exit(1);
 });
 
-module.exports = App;
+export default App;

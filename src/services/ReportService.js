@@ -1,6 +1,13 @@
-const fs = require('fs').promises;
-const path = require('path');
-const logger = require('../utils/logger');
+import fs from 'fs/promises';
+import logger from '../utils/logger.js';
+
+import path from 'path';
+import { fileURLToPath } from 'url'; // Para obter o caminho do arquivo atual
+import { dirname } from 'path'; 
+
+//__filename e __dirname para ES Modules:
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 class ReportService {
     constructor() {
@@ -173,4 +180,4 @@ Relatório gerado automaticamente pelo Sistema de Integração Paytrack
     }
 }
 
-module.exports = ReportService;
+export default ReportService;

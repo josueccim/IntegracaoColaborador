@@ -1,6 +1,6 @@
-const fs = require('fs').promises;
-const path = require('path');
-const DatabaseConfig = require('./config/database');
+import fs from 'fs/promises';
+import path from 'path';
+import DatabaseConfig from './config/database.js';
 
 async function setup() {
     console.log(' Configurando ambiente...');

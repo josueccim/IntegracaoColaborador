@@ -1,7 +1,6 @@
-require('dotenv').config();
-
-const { default: fetch } = require('node-fetch'); // Import fetch from node-fetch
-const logger = require('../utils/logger');
+import 'dotenv/config'; 
+import fetch from 'node-fetch'; // Simplificado
+import logger from '../utils/logger.js'; // Adicione a extensão .js para módulos locais
 
 class ApiService {
 
@@ -57,4 +56,4 @@ class ApiService {
     }
 }
 
-module.exports = ApiService;
+export default ApiService;

@@ -1,6 +1,7 @@
 {
   "name": "colaboradores",
   "version": "1.0.0",
+  "type": "module",
   "main": "src/app.js",
   "description": "Sistema de integracao para dados de colaboradores",
   "scripts": {
