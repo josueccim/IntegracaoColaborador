@@ -1,0 +1,14 @@
+{
+  "api": {
+    "baseURL": "https://dataprovider.paytrack.com.br",
+    "timeout": 30000,
+    "retries": 3
+  },
+  "integration": {
+    "intervalMinutes": 15,
+    "logLevel": "info"
+  },
+  "database": {
+    "path": "./database/paytrack.db"
+  }
+}
